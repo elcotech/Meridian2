@@ -19,8 +19,8 @@ function App() {
     about: 'Professional Profile',
     aboutText: `🎓 MSc in Information Technology Technical Teacher Education | 17+ Years Experience
 
-🏢 Current: Senior Lecturer at Worldlink Cross-Border International College
-🏛️ Government Service: ICT Instructor & IT Systems Specialist at Nifass Silk Poly-Technic College
+🏢 Current: Part-time Lecturer at Worldlink Cross-Border International College
+🏛️ Government Service: ICT Instructor & ICT club Director at Nefassilk Poly-Technic College
 
 💡 Specializing in advanced IT education, curriculum development, and technical consultation with deep industry experience across multiple sectors.
 
@@ -53,7 +53,7 @@ function App() {
 
     technicalSkills: 'Technical Expertise',
     skillsList: [
-      ['Programming & Development', 'Java, C++, Python, PHP, Visual Basic, SQL, React, QBASIC'],
+      ['Programming & Development', 'Java, C++, C#, PHP, Visual Basic, SQL, React, QBASIC'],
       ['Database Management', 'Oracle, MySQL, Supabase, SQL Server'],
       ['Networking & Infrastructure', 'Cisco Scaling Networks, Network Maintenance, CSMARP(CR)'],
       ['Software & Systems', 'Adobe Photoshop, Macromedia Suite, Microsoft Office Suite'],
@@ -279,7 +279,7 @@ function App() {
               <div className="availability">
                 <h4>📅 Availability</h4>
                 <p>• Consulting & Training Sessions</p>
-                <p>• Weekday Evenings & Weekends</p>
+                <p>• Monday , Friday and Weekend Evenings</p>
                 <p>• Online & On-site (Addis Ababa)</p>
               </div>
             </div>
