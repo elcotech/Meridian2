@@ -38,9 +38,9 @@ function App() {
 
     education: 'Education & Certifications',
     educationList: [
-      ['MSc in Information Technology Technical Teacher Education', 'Ethio-China University'],
+      ['MSc in Information Technology Technical Teacher Education', 'FTTI'],
       ['BSc in Technical Teacher Education (IT)', 'Ethio-China University '],
-      ['Diploma in Special Needs and Language', 'Kotebe College'],
+      ['Diploma in Special Needs and Language', 'KCTE'],
       ['Diploma, IT Technician', 'Nefassilk Poly-Technic College'],
       ['Coursework in Business Administration', 'Adama Science and Technology University']
     ],
