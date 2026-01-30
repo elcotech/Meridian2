@@ -17,26 +17,25 @@ function App() {
       phone: '+251-900-802400 / +251-911-425414',
       email: 'meridianlawinfo@gmail.com',
       website: 'https://meridianlawfirmllp.com.et',
+      whatsapp: 'https://wa.me/251900802400',
       
       welcome: 'Strategically positioned within international legal and professional networks',
-      description: 'A Full-Service Ethiopian Law Firm providing comprehensive legal services across all areas of Ethiopian law for domestic and international clients.',
+      description: 'A Full-Service Ethiopian Law Firm providing comprehensive legal services.',
       
       about: 'About Our Firm',
       aboutText: `🏛️ MERIDIAN LAW FIRM LLP - ሜሪዲያን የጥብቅና አገልግሎት ኃ/የተ/የሽ/ማህበር
 
 A Full-Service Ethiopian Law Firm
-Strategically positioned within international legal and professional networks, we provide comprehensive legal services across all areas of Ethiopian law for domestic and international clients, including foreign investors.
-
-Through strategic legal advocacy and informed consultation, we position our clients at the forefront of their fields.`,
+Strategically positioned within international legal and professional networks, we provide comprehensive legal services across all areas of Ethiopian law for domestic and international clients, including foreign investors.`,
 
       services: 'Our Legal Services',
       servicesList: [
-        ['📋 Legal Advisory Services', 'Expert legal guidance to help your business navigate complex matters and make informed decisions.'],
-        ['💼 Commercial Law', 'Guiding businesses from start-up to multinational, including entity formation, M&A, corporate governance, and all commercial matters.'],
-        ['⚔️ Litigation & Defense', 'Handling complex civil and criminal litigation with the rigor required for federal-level disputes.'],
-        ['💰 Tax Law & Financial Strategy', 'Conducting high-level reviews of tax obligations, advising on incentives, and representing clients before tax authorities.'],
-        ['🛡️ Insurance & Liability Advisory', 'Providing counsel on liability, coverage disputes, regulatory compliance, and risk management in all areas of law.'],
-        ['🌍 Comprehensive Legal Services', 'Expert representation in civil, criminal, labour, commercial, and all areas of Ethiopian law for domestic and international clients.']
+        ['📋 Legal Advisory Services', 'Expert legal guidance to help your business navigate complex matters.'],
+        ['💼 Commercial Law', 'Guiding businesses from start-up to multinational operations.'],
+        ['⚔️ Litigation & Defense', 'Handling complex civil and criminal litigation with expertise.'],
+        ['💰 Tax Law & Financial Strategy', 'Conducting high-level reviews of tax obligations.'],
+        ['🛡️ Insurance & Liability Advisory', 'Providing counsel on liability and risk management.'],
+        ['🌍 Comprehensive Legal Services', 'Expert representation in all areas of Ethiopian law.']
       ],
 
       partners: 'Our Legal Partners',
@@ -44,80 +43,60 @@ Through strategic legal advocacy and informed consultation, we position our clie
         {
           name: 'MESFIN MARE WELDEGIORGIS',
           title: 'MANAGING PARTNER',
-          description: 'Professional Summary: The Managing Partner is a highly respected legal professional with over thirty (30) years of extensive experience acquired through distinguished service in governmental and public institutions and in private legal practice. He has held various senior positions within the justice and public administration sectors and has represented clients before courts, tribunals, and administrative bodies at all levels.',
-          fullText: `He possesses comprehensive expertise in constitutional law, international law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled complex litigation, advisory, and regulatory matters involving public institutions, multinational and domestic corporate entities, and private clients. His practice includes cross-border legal advisory, public international law matters, and cases involving international legal principles applicable under Ethiopian law.
-
-As Managing Partner, he provides strategic leadership and professional oversight to the Firm, ensuring the delivery of high-quality legal services grounded in professional integrity, sound legal judgment, and a deep understanding of Ethiopian and international legal frameworks. His extensive experience enables him to offer authoritative, practical, and solution-oriented legal counsel across a wide range of legal disciplines.`
+          description: 'Professional Summary: Highly respected legal professional with extensive experience in governmental institutions and private legal practice.',
+          fullText: `He possesses comprehensive expertise in constitutional law, international law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled complex litigation, advisory, and regulatory matters involving public institutions, multinational and domestic corporate entities, and private clients.`
         },
         {
           name: 'HABTAMU BISRAT KEBEDE',
           title: 'DEPUTY MANAGING PARTNER',
-          description: 'Professional Summary: The Deputy Managing Partner is an experienced legal professional with more than twenty (20) years of service in governmental and public institutions as well as in private legal practice.',
-          fullText: `He has served in various professional and advisory capacities within public institutions and has extensive experience representing clients before courts and administrative bodies at different levels.
-
-He has broad and in-depth expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled a wide range of litigation, advisory, and regulatory matters involving public institutions, governmental bodies, corporate entities, and private clients.
-
-In his role as Deputy Managing Partner, he supports the strategic and operational leadership of the Firm, contributes to the supervision of legal services, and ensures the delivery of professional, effective, and ethically grounded legal representation. His combined experience in public service and private practice enables him to provide practical, well-reasoned, and solution-oriented legal counsel across all major areas of law.`
+          description: 'Professional Summary: Experienced legal professional with substantial service in governmental institutions and private legal practice.',
+          fullText: `He has broad and in-depth expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled a wide range of litigation, advisory, and regulatory matters.`
         },
         {
           name: 'TALEMA GIZACHEW BIZUNEH',
           title: 'PARTNER',
-          description: 'Professional Summary: The Partner is a senior legal professional with twenty-five (25) years of combined service in governmental institutions and as a practicing lawyer.',
-          fullText: `He has served in various professional, advisory, and decision-support roles within public institutions and has practiced law extensively, representing clients before courts, tribunals, and administrative bodies at all levels.
-
-He possesses comprehensive expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled a broad range of litigation, advisory, and regulatory matters involving governmental bodies, public institutions, corporate entities, private clients, and foreign nationals.
-
-He has substantial experience in representing foreign nationals, including matters relating to investment, immigration, commercial disputes, labor relations, and cases involving cross-border legal elements and the application of international legal principles within the Ethiopian legal system.
-
-As a Partner of the Firm, he contributes to the delivery of high-quality legal services through sound legal analysis, professional integrity, and practical problem-solving, drawing on his extensive experience in public service and private legal practice.`
+          description: 'Professional Summary: Senior legal professional with extensive combined service in governmental institutions and as a practicing lawyer.',
+          fullText: `He possesses comprehensive expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, and administrative law, tax law and has handled a broad range of litigation, advisory, and regulatory matters.`
         },
         {
           name: 'AKLILU ABEBAW BELAY',
           title: 'PARTNER',
-          description: 'Professional Summary: The Partner is a senior legal professional with more than twenty-two (22) years of extensive service in various governmental institutions, public corporations, and private legal practice.',
-          fullText: `He has served in diverse professional and advisory capacities within public institutions and corporate entities, and has represented clients before courts, tribunals, and administrative bodies at all levels.
-
-He possesses comprehensive expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, administrative law, tax law, and environmental law, and has handled complex litigation and advisory matters involving governmental bodies, public institutions, corporations, and private clients. His professional experience further includes the drafting and negotiation of complex commercial contracts and Memoranda of Understanding, particularly for institutional, infrastructure, and large-scale commercial projects.
-
-The Partner has intensive experience in representing foreign companies and foreign nationals, including matters related to investment, corporate establishment, taxation, labor relations, environmental compliance, regulatory approvals, and commercial disputes, as well as cases involving cross-border legal elements and the application of international legal principles under Ethiopian law.
-
-As a Partner of the Firm, he contributes to the provision of high-quality legal services through sound legal analysis, professional integrity, and practical, solution-oriented legal counsel, drawing upon his extensive experience in public institutions, corporate environments, and legal practice.`
+          description: 'Professional Summary: Senior legal professional with extensive service in various governmental institutions, public corporations, and private legal practice.',
+          fullText: `He possesses comprehensive expertise in constitutional law, criminal law, civil law, commercial law, contract and extra-contractual obligations, labor law, administrative law, tax law, and environmental law, and has handled complex litigation and advisory matters.`
         }
       ],
 
       expertise: 'Specialized Service Sectors',
       expertiseList: [
-        '⚖️ Judicial Insight & Oversight – Applying impartial legal analysis to every case',
-        '🌐 Strategic Networks & Policy – Bridging the gap between legislation and commercial objectives',
-        '⚔️ Litigation & Defense – Federal-level civil and criminal litigation',
-        '📊 Commercial Law – Entity formation, M&A, corporate governance',
-        '💰 Tax Law & Financial Strategy – Tax obligations and incentives',
-        '🛡️ Insurance & Liability Advisory – Risk management and compliance',
-        '🌍 Foreign Investment – Investment, immigration, and cross-border legal matters'
+        '⚖️ Judicial Insight & Oversight',
+        '🌐 Strategic Networks & Policy',
+        '⚔️ Litigation & Defense',
+        '📊 Commercial Law',
+        '💰 Tax Law & Financial Strategy',
+        '🛡️ Insurance & Liability Advisory',
+        '🌍 Foreign Investment'
       ],
 
       laws: 'Ethiopian Legal Codes',
       lawsList: [
-        ['📚 Civil Code Proclamation No. 165/1960', 'The comprehensive code governing civil matters, contracts, property, and obligations.'],
-        ['⚖️ Criminal Code Proclamation No. 414/2004', 'Defines crimes, penalties, and criminal procedures in Ethiopia.'],
-        ['💼 Commercial Code Proclamation No. 1243/2021', 'Regulates commercial activities, companies, and business organizations.'],
-        ['👥 Labour Proclamation No. 1156/2019', 'Governs employment relationships and labor rights.'],
-        ['🏦 Banking Business Proclamation No. 592/2008', 'Regulates banking and financial institutions.'],
-        ['🌿 Environmental Protection Org. Proclamation No. 295/2002', 'Framework for environmental protection and management.']
+        ['📚 Civil Code', 'The comprehensive code governing civil matters, contracts, property, and obligations.'],
+        ['⚖️ Criminal Code', 'Defines crimes, penalties, and criminal procedures in Ethiopia.'],
+        ['💼 Commercial Code', 'Regulates commercial activities, companies, and business organizations.'],
+        ['👥 Labour Proclamation', 'Governs employment relationships and labor rights.'],
+        ['🏦 Banking Business', 'Regulates banking and financial institutions.'],
+        ['🌿 Environmental Protection', 'Framework for environmental protection and management.']
       ],
 
       articles: 'Legal Articles & Insights',
       articlesList: [
-        ['📈 Navigating Ethiopian Investment Laws in 2024', 'Key insights for foreign investors entering the Ethiopian market.'],
-        ['⚖️ Recent Changes in Commercial Dispute Resolution', 'Analysis of new procedural rules affecting commercial litigation.'],
-        ['💼 Corporate Governance Best Practices', 'Essential guidelines for companies operating in Ethiopia.'],
-        ['🌍 Cross-Border Legal Considerations', 'Important factors for international businesses in Ethiopia.'],
-        ['💰 Tax Incentives for Strategic Investments', 'Understanding Ethiopia\'s tax benefits for investors.'],
-        ['🛡️ Risk Management in Commercial Contracts', 'Drafting effective contracts to mitigate legal risks.']
+        ['📈 Navigating Ethiopian Investment Laws', 'Key insights for foreign investors entering the Ethiopian market.'],
+        ['⚖️ Commercial Dispute Resolution', 'Analysis of new procedural rules affecting commercial litigation.'],
+        ['💼 Corporate Governance', 'Essential guidelines for companies operating in Ethiopia.'],
+        ['🌍 Cross-Border Legal', 'Important factors for international businesses in Ethiopia.']
       ],
 
       newsletter: 'Join Our Legal Digest',
-      newsletterText: 'Receive expert legal insights, regulatory updates, and firm announcements directly in your inbox.',
+      newsletterText: 'Receive expert legal insights, regulatory updates, and firm announcements.',
       
       contact: 'Contact Us',
       officeHours: 'Office Hours',
@@ -129,11 +108,11 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
       
       socialMedia: 'Connect With Us',
       socialLinks: [
-        { platform: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
-        { platform: 'Facebook', icon: '📘', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
-        { platform: 'Telegram', icon: '✈️', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
-        { platform: 'Twitter', icon: '🐦', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
-        { platform: 'YouTube', icon: '▶️', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
+        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
+        { platform: 'Facebook', icon: 'facebook', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
+        { platform: 'Telegram', icon: 'telegram', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
+        { platform: 'Twitter', icon: 'twitter', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
+        { platform: 'YouTube', icon: 'youtube', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
       ]
     },
     
@@ -144,26 +123,25 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
       phone: '+251-900-802400 / +251-911-425414',
       email: 'meridianlawinfo@gmail.com',
       website: 'https://meridianlawfirmllp.com.et',
+      whatsapp: 'https://wa.me/251900802400',
       
       welcome: 'በዓለም አቀፍ የሕግ እና ሙያዊ አውታረ መረቦች ውስጥ በስትራቴጂክ ሁኔታ የተቀመጠ',
-      description: 'ሙሉ የሕግ አገልግሎት የሚሰጥ ኢትዮጵያዊ የሕግ ቢሮ ለአገር ውስጥ እና ለዓለም አቀፍ ደንበኞች በኢትዮጵያ ሕግ በሁሉም መስኮች ላይ የሚያሟላ የሕግ አገልግሎቶችን ይሰጣል።',
+      description: 'ሙሉ የሕግ አገልግሎት የሚሰጥ ኢትዮጵያዊ የሕግ ቢሮ።',
       
       about: 'ስለ ቢሮችን',
       aboutText: `🏛️ ሜሪዲያን የሕግ ቢሮ - የጥብቅና አገልግሎት
 
 ሙሉ የሕግ አገልግሎት የሚሰጥ ኢትዮጵያዊ የሕግ ቢሮ
-በዓለም አቀፍ የሕግ እና ሙያዊ አውታረ መረቦች ውስጥ በስትራቴጂክ ሁኔታ የተቀመጥን ለአገር ውስጥ እና ለዓለም አቀፍ ደንበኞች፣ የውጭ ባለሃብቶችን ጨምሮ፣ በኢትዮጵያ ሕግ በሁሉም መስኮች ላይ የሚያሟላ የሕግ አገልግሎቶችን እናቀርባለን።
-
-በስትራቴጂክ የሕግ አማራጭ እና በተማረ ምክር አማካኝነት ደንበኞቻችን በራሳቸው መስኮች መሪዎች እንዲሆኑ እናግዛለን።`,
+በዓለም አቀፍ የሕግ እና ሙያዊ አውታረ መረቦች ውስጥ በስትራቴጂክ ሁኔታ የተቀመጥን።`,
 
       services: 'የሕግ አገልግሎቶቻችን',
       servicesList: [
-        ['📋 የሕግ ምክር አገልግሎቶች', 'የባለሙያ የሕግ መመሪያ የንግድዎን ውስብስብ ጉዳዮች ለማስተናገድ እና በተመሠረተ ውሳኔ ለማድረግ ይረዳዎታል።'],
-        ['💼 ንግድ ሕግ', 'ከመጀመሪያ እስከ ባለብዙ ብሔራዊ ድርጅት ድረስ የሚያስገቡ ንግዶች፣ የኩባንያ መስርት፣ የግዥ እና የትስስር፣ የኩባንያ አስተዳደር እና ሁሉም የንግድ ጉዳዮች።'],
-        ['⚔️ የፍርድ እና መከላከያ አገልግሎት', 'በፌደራል ደረጃ የሚፈጸሙ የሲቪል እና የወንጀል ፍርድ ጉዳዮችን በጥብቅ መቅዳት።'],
-        ['💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ', 'የታክስ ግዴታዎችን ከፍተኛ ደረጃ ላይ መርምር፣ ስለ ማበረታቻዎች ማማከር እና ታክስ ባለሥልጣናት ፊት ደንበኞችን መወከል።'],
-        ['🛡️ የኢንሹራንስ እና ኃላፊነት ምክር', 'በሕግ ሁሉም መስኮች ላይ ስለ ኃላፊነት፣ የክልል አለመስማማት፣ የሕግ ተገዢነት እና አደጋ አስተዳደር ምክር መስጠት።'],
-        ['🌍 የሚያሟላ የሕግ አገልግሎት', 'ለአገር ውስጥ እና ለዓለም አቀፍ ደንበኞች በሲቪል፣ ወንጀል፣ የጉልበት፣ የንግድ እና በኢትዮጵያ ሕግ ሁሉም መስኮች የባለሙያ ወክል።']
+        ['📋 የሕግ ምክር አገልግሎቶች', 'የባለሙያ የሕግ መመሪያ የንግድዎን ጉዳዮች ለማስተናገድ።'],
+        ['💼 ንግድ ሕግ', 'ከመጀመሪያ እስከ ባለብዙ ብሔራዊ ድርጅት ድረስ የሚያስገቡ ንግዶች።'],
+        ['⚔️ የፍርድ እና መከላከያ', 'በሲቪል እና የወንጀል ፍርድ ጉዳዮች።'],
+        ['💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ', 'የታክስ ግዴታዎችን ከፍተኛ ደረጃ ላይ መርምር።'],
+        ['🛡️ የኢንሹራንስ እና ኃላፊነት ምክር', 'ስለ ኃላፊነት እና አደጋ አስተዳደር ምክር መስጠት።'],
+        ['🌍 የሚያሟላ የሕግ አገልግሎት', 'በኢትዮጵያ ሕግ ሁሉም መስኮች የባለሙያ ወክል።']
       ],
 
       partners: 'የሕግ አጋሮቻችን',
@@ -171,37 +149,36 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
         {
           name: 'መስፍን ማሬ ወልደጊዮርጊስ',
           title: 'የሚናገር አጋር',
-          description: 'ሙያዊ ማጠቃለያ: የሚናገር አጋሩ ከሠላሳ (30) ዓመት በላይ ልዩ የሆነ ልምድ ያለው በርካታ የሕግ ሙያ ባለሙያ ነው።',
-          fullText: `በመንግሥታዊ እና በየግል የሕግ ተግባር ውስጥ ልዩ አገልግሎት በመስጠት በርካታ የሕግ ሙያ ልምድ አለው። በፍትሕ እና በህዝብ አስተዳደር ዘርፎች ውስጥ የተለያዩ ከፍተኛ የሥልጣን መያዣዎችን አስጠውቋል።`
+          description: 'ሙያዊ ማጠቃለያ: ከሠላሳ ዓመት በላይ ልዩ የሆነ ልምድ ያለው የሕግ ሙያ ባለሙያ።',
+          fullText: `በመንግሥታዊ እና በየግል የሕግ ተግባር ውስጥ ልዩ አገልግሎት በመስጠት በርካታ የሕግ ሙያ ልምድ አለው።`
         }
-        // Add other Amharic translations similarly
       ],
 
       expertise: 'ልዩ የአገልግሎት ዘርፎች',
       expertiseList: [
-        '⚖️ የፍርድ ግንዛቤ እና ቁጥጥር - ለእያንዳንዱ ጉዳይ ግምገማ የሚሰጥ',
-        '🌐 ስትራቴጂክ አውታረመረቦች እና ፖሊሲ - በሕግ እና በንግድ ግቦች መካከል ያለውን ክፍተት መሙላት',
-        '⚔️ የፍርድ እና መከላከያ - በፌደራል ደረጃ የሚፈጸሙ የሲቪል እና የወንጀል ፍርድ ጉዳዮች',
-        '📊 ንግድ ሕግ - የኩባንያ መስርት፣ የግዥ እና የትስስር፣ የኩባንያ አስተዳደር',
-        '💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ - የታክስ ግዴታዎች እና ማበረታቻዎች',
-        '🛡️ የኢንሹራንስ እና ኃላፊነት ምክር - የአደጋ አስተዳደር እና የሕግ ተገዢነት',
-        '🌍 የውጭ ኢንቨስትመንት - ኢንቨስትመንት፣ ምሰሶ እና የስደት ጉዳዮች'
+        '⚖️ የፍርድ ግንዛቤ እና ቁጥጥር',
+        '🌐 ስትራቴጂክ አውታረመረቦች እና ፖሊሲ',
+        '⚔️ የፍርድ እና መከላከያ',
+        '📊 ንግድ ሕግ',
+        '💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ',
+        '🛡️ የኢንሹራንስ እና ኃላፊነት ምክር',
+        '🌍 የውጭ ኢንቨስትመንት'
       ],
 
       laws: 'የኢትዮጵያ ሕጎች',
       lawsList: [
-        ['📚 ሲቪል ኮድ አዋጅ ቁጥር 165/1960', 'ሲቪል ጉዳዮች፣ ኮንትራት፣ ንብረት እና ግዴታዎችን የሚያስተዳድር የተሟላ ኮድ።'],
-        ['⚖️ የወንጀል ኮድ አዋጅ ቁጥር 414/2004', 'በኢትዮጵያ ውስጥ ወንጀሎች፣ ቅጣቶች እና የወንጀል ሂደቶችን ይገልፃል።']
+        ['📚 ሲቪል ኮድ', 'ሲቪል ጉዳዮች፣ ኮንትራት፣ ንብረት እና ግዴታዎችን የሚያስተዳድር።'],
+        ['⚖️ የወንጀል ኮድ', 'በኢትዮጵያ ውስጥ ወንጀሎች፣ ቅጣቶች እና የወንጀል ሂደቶች።']
       ],
 
       articles: 'የሕግ ጽሁፎች እና ግንዛቤዎች',
       articlesList: [
-        ['📈 በ2024 የኢትዮጵያ ኢንቨስትመንት ሕጎችን መርሳሳት', 'ወደ ኢትዮጵያ ገበያ ለሚገቡ የውጭ ባለሃብቶች ዋና ግንዛቤዎች።'],
-        ['⚖️ በንግድ ክርክር መፍትሄ ውስጥ ያሉ የቅርብ ጊዜ ለውጦች', 'የንግድ ፍርድ ላይ ተጽዕኖ የሚያሳድሩ የአዲስ ሂደት ሕጎች ትንተና።']
+        ['📈 የኢትዮጵያ ኢንቨስትመንት ሕጎች', 'ወደ ኢትዮጵያ ገበያ ለሚገቡ የውጭ ባለሃብቶች።'],
+        ['⚖️ በንግድ ክርክር መፍትሄ', 'የንግድ ፍርድ ላይ ተጽዕኖ የሚያሳድሩ ሕጎች።']
       ],
 
       newsletter: 'የሕግ ዲጄስታችንን ይቀላቀሉ',
-      newsletterText: 'የባለሙያ የሕግ ግንዛቤዎችን፣ የሕግ ማዘመኛዎችን እና የቢሮ ማስታወቂያዎችን በቀጥታ በኢሜልዎ ይቀበሉ።',
+      newsletterText: 'የባለሙያ የሕግ ግንዛቤዎችን እና የሕግ ማዘመኛዎችን በኢሜልዎ ይቀበሉ።',
       
       contact: 'አግኙን',
       officeHours: 'የስራ ሰዓቶች',
@@ -213,11 +190,11 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
       
       socialMedia: 'ከእኛ ጋር ይገናኙ',
       socialLinks: [
-        { platform: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
-        { platform: 'Facebook', icon: '📘', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
-        { platform: 'Telegram', icon: '✈️', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
-        { platform: 'Twitter', icon: '🐦', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
-        { platform: 'YouTube', icon: '▶️', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
+        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
+        { platform: 'Facebook', icon: 'facebook', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
+        { platform: 'Telegram', icon: 'telegram', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
+        { platform: 'Twitter', icon: 'twitter', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
+        { platform: 'YouTube', icon: 'youtube', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
       ]
     }
   };
@@ -312,8 +289,43 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
     setIsMenuOpen(false);
   };
 
+  const handleWhatsAppClick = () => {
+    window.open(currentContent.whatsapp, '_blank');
+  };
+
+  // Render social media icon
+  const renderSocialIcon = (iconName) => {
+    switch(iconName) {
+      case 'linkedin':
+        return <i className="fab fa-linkedin-in"></i>;
+      case 'facebook':
+        return <i className="fab fa-facebook-f"></i>;
+      case 'telegram':
+        return <i className="fab fa-telegram-plane"></i>;
+      case 'twitter':
+        return <i className="fab fa-twitter"></i>;
+      case 'youtube':
+        return <i className="fab fa-youtube"></i>;
+      case 'whatsapp':
+        return <i className="fab fa-whatsapp"></i>;
+      default:
+        return iconName;
+    }
+  };
+
   return (
     <div className="App">
+      {/* Book Consultation Button */}
+      <button className="book-consultation-btn" onClick={() => scrollToSection('contact')}>
+        <i className="fas fa-calendar-check"></i>
+        {language === 'en' ? 'Book Consultation' : 'ምክር ያስይዙ'}
+      </button>
+
+      {/* WhatsApp Button */}
+      <button className="whatsapp-btn" onClick={handleWhatsAppClick}>
+        <i className="fab fa-whatsapp"></i>
+      </button>
+
       {/* Floating Social Media */}
       <div className="floating-social">
         {currentContent.socialLinks.map((social, index) => (
@@ -324,7 +336,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
             style={{ '--social-color': social.color, '--delay': index * 0.1 + 's' }}
             aria-label={social.platform}
           >
-            <span className="social-icon">{social.icon}</span>
+            {renderSocialIcon(social.icon)}
             <span className="social-tooltip">{social.platform}</span>
           </button>
         ))}
@@ -393,16 +405,6 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
             </button>
           </li>
           <li>
-            <button onClick={() => scrollToSection('laws')} className={activeSection === 'laws' ? 'active' : ''}>
-              📚 {currentContent.laws}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('articles')} className={activeSection === 'articles' ? 'active' : ''}>
-              📈 {currentContent.articles}
-            </button>
-          </li>
-          <li>
             <button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>
               📞 {currentContent.contact}
             </button>
@@ -439,25 +441,24 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
               
               <div className="hero-stats">
                 <div className="stat-item">
-                  <span className="stat-number">30+</span>
-                  <span className="stat-label">{language === 'en' ? 'Years Experience' : 'ዓመታት ልምድ'}</span>
+                  <span className="stat-text">{language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">500+</span>
-                  <span className="stat-label">{language === 'en' ? 'Cases Won' : 'ተሸንፎ የቀረ ጉዳዮች'}</span>
+                  <span className="stat-text">{language === 'en' ? 'Proven Track Record' : 'የተረጋገጠ አስፈጻሚነት'}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">50+</span>
-                  <span className="stat-label">{language === 'en' ? 'Countries Served' : 'አገሮች ተገልግለዋል'}</span>
+                  <span className="stat-text">{language === 'en' ? 'International Reach' : 'ዓለም አቀፍ ሽፋን'}</span>
                 </div>
               </div>
               
               <div className="hero-buttons">
                 <button onClick={() => scrollToSection('contact')} className="btn btn-primary">
-                  📞 {language === 'en' ? 'Schedule Consultation' : 'ምክር ያስይዙ'}
+                  <i className="fas fa-calendar-alt"></i>
+                  {language === 'en' ? 'Schedule Consultation' : 'ምክር ያስይዙ'}
                 </button>
                 <button onClick={() => scrollToSection('services')} className="btn btn-secondary">
-                  ⚖️ {language === 'en' ? 'View Services' : 'አገልግሎቶችን ይመልከቱ'}
+                  <i className="fas fa-gavel"></i>
+                  {language === 'en' ? 'View Services' : 'አገልግሎቶችን ይመልከቱ'}
                 </button>
               </div>
             </div>
@@ -484,7 +485,17 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
             
             <div className="about-content">
               <div className="about-text">
-                <p>{currentContent.aboutText}</p>
+                <p className="text-summary">{currentContent.aboutText}</p>
+                <details className="read-more-details">
+                  <summary>{language === 'en' ? 'Read More' : 'ተጨማሪ ያንብቡ'}</summary>
+                  <div className="details-content">
+                    <p>{language === 'en' 
+                      ? 'Through strategic legal advocacy and informed consultation, we position our clients at the forefront of their fields. Our team of experienced attorneys combines deep knowledge of Ethiopian law with international legal expertise to deliver exceptional results.' 
+                      : 'በስትራቴጂክ የሕግ አማራጭ እና በተማረ ምክር አማካኝነት ደንበኞቻችን በራሳቸው መስኮች መሪዎች እንዲሆኑ እናግዛለን። የተሞክሮ ያላቸው የሕግ ባለሙያዎች የኢትዮጵያ ሕግ ጥልቅ እውቀት ከዓለም አቀፍ የሕግ ብቃት ጋር በማጣመር ልዩ ውጤቶችን ያቀርባሉ።'}
+                    </p>
+                  </div>
+                </details>
+                
                 <div className="excellence-badges">
                   <div className="badge">🏆 {language === 'en' ? 'Award Winning' : 'የሽልማት ተሸላሚ'}</div>
                   <div className="badge">⭐ {language === 'en' ? 'Top Rated' : 'ከፍተኛ ደረጃ'}</div>
@@ -527,9 +538,9 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                     <div className="service-icon">{icon}</div>
                     <h3>{title}</h3>
                     <p>{description}</p>
-                    <div className="service-hover">
-                      <span>{language === 'en' ? 'Learn More →' : 'ተጨማሪ እወቅ →'}</span>
-                    </div>
+                    <button className="read-more-btn" onClick={() => scrollToSection('contact')}>
+                      {language === 'en' ? 'Learn More →' : 'ተጨማሪ እወቅ →'}
+                    </button>
                   </div>
                 );
               })}
@@ -574,12 +585,8 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                   
                   <div className="partner-experience">
                     <span className="exp-badge">
-                      {partner.title === 'PARTNER' && partner.name.includes('TALEMA') ? '25+' : 
-                       partner.name.includes('MESFIN') ? '30+' : 
-                       partner.name.includes('HABTAMU') ? '20+' : '22+'} 
-                      {language === 'en' ? ' Years' : ' ዓመታት'}
+                      {language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}
                     </span>
-                    <span className="exp-text">{language === 'en' ? 'Experience' : 'ልምድ'}</span>
                   </div>
                 </div>
               ))}
@@ -609,71 +616,14 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
             
             <div className="expertise-stats">
               <div className="stat-card">
-                <div className="stat-number">98%</div>
-                <div className="stat-label">{language === 'en' ? 'Success Rate' : 'የስኬት መጠን'}</div>
+                <div className="stat-text">{language === 'en' ? 'Exceptional Success Rate' : 'የተሻለ የስኬት መጠን'}</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">24/7</div>
-                <div className="stat-label">{language === 'en' ? 'Client Support' : 'የደንበኛ ድጋፍ'}</div>
+                <div className="stat-text">{language === 'en' ? 'Round the Clock Support' : 'ሙሉ ጊዜ ድጋፍ'}</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">100+</div>
-                <div className="stat-label">{language === 'en' ? 'Expert Network' : 'የባለሙያ አውታረመረብ'}</div>
+                <div className="stat-text">{language === 'en' ? 'Vast Expert Network' : 'ሰፊ የባለሙያ አውታረመረብ'}</div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Laws Section */}
-        <section className="section laws-section" id="laws">
-          <div className="container">
-            <div className="section-header">
-              <div className="section-icon">📚</div>
-              <h2>{currentContent.laws}</h2>
-              <div className="section-subtitle">
-                {language === 'en' ? 'Ethiopian Legal Framework' : 'የኢትዮጵያ ሕግ መዋቅር'}
-              </div>
-            </div>
-            
-            <div className="laws-grid">
-              {currentContent.lawsList.map(([title, description], index) => (
-                <div className="law-card" key={index} style={{ '--delay': index * 0.1 + 's' }}>
-                  <div className="law-icon">{title.split(' ')[0]}</div>
-                  <h3>{title.slice(2)}</h3>
-                  <p>{description}</p>
-                  <button className="law-button">
-                    📖 {language === 'en' ? 'Read More' : 'ተጨማሪ ያንብቡ'}
-                  </button>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Articles Section */}
-        <section className="section articles-section" id="articles">
-          <div className="container">
-            <div className="section-header">
-              <div className="section-icon">📈</div>
-              <h2>{currentContent.articles}</h2>
-              <div className="section-subtitle">
-                {language === 'en' ? 'Latest Legal Updates' : 'የቅርብ ጊዜ የሕግ ዝመናዎች'}
-              </div>
-            </div>
-            
-            <div className="articles-grid">
-              {currentContent.articlesList.map(([title, description], index) => (
-                <div className="article-card" key={index} style={{ '--delay': index * 0.1 + 's' }}>
-                  <div className="article-date">
-                    {language === 'en' ? 'Jan 2024' : 'ጃን 2024'}
-                  </div>
-                  <h3>{title}</h3>
-                  <p>{description}</p>
-                  <button className="article-button">
-                    📰 {language === 'en' ? 'Read Article' : 'ጽሁፉን ያንብቡ'}
-                  </button>
-                </div>
-              ))}
             </div>
           </div>
         </section>
@@ -701,7 +651,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                 
                 <div className="contact-details">
                   <div className="contact-item">
-                    <span className="contact-icon">📞</span>
+                    <span className="contact-icon"><i className="fas fa-phone"></i></span>
                     <div>
                       <strong>{language === 'en' ? 'Phone' : 'ስልክ'}</strong>
                       <a href={`tel:${currentContent.phone}`}>{currentContent.phone}</a>
@@ -709,7 +659,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                   </div>
                   
                   <div className="contact-item">
-                    <span className="contact-icon">✉️</span>
+                    <span className="contact-icon"><i className="fas fa-envelope"></i></span>
                     <div>
                       <strong>Email</strong>
                       <a href={`mailto:${currentContent.email}`}>{currentContent.email}</a>
@@ -717,7 +667,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                   </div>
                   
                   <div className="contact-item">
-                    <span className="contact-icon">🌐</span>
+                    <span className="contact-icon"><i className="fas fa-globe"></i></span>
                     <div>
                       <strong>{language === 'en' ? 'Website' : 'ድህረገፅ'}</strong>
                       <a href={currentContent.website} target="_blank" rel="noopener noreferrer">
@@ -725,17 +675,27 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                       </a>
                     </div>
                   </div>
+
+                  <div className="contact-item">
+                    <span className="contact-icon"><i className="fab fa-whatsapp"></i></span>
+                    <div>
+                      <strong>WhatsApp</strong>
+                      <a href={currentContent.whatsapp} target="_blank" rel="noopener noreferrer">
+                        {language === 'en' ? 'Chat with us' : 'ከእኛ ጋር ይተዋወቁ'}
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="office-hours">
-                  <h4>🕒 {currentContent.officeHours}</h4>
+                  <h4><i className="far fa-clock"></i> {currentContent.officeHours}</h4>
                   {currentContent.hours.map((hour, index) => (
                     <p key={index}>{hour}</p>
                   ))}
                 </div>
                 
                 <div className="social-section">
-                  <h4>{currentContent.socialMedia}</h4>
+                  <h4><i className="fas fa-share-alt"></i> {currentContent.socialMedia}</h4>
                   <div className="social-buttons">
                     {currentContent.socialLinks.map((social, index) => (
                       <button
@@ -745,7 +705,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                         style={{ '--social-color': social.color }}
                         aria-label={social.platform}
                       >
-                        {social.icon}
+                        {renderSocialIcon(social.icon)}
                       </button>
                     ))}
                   </div>
@@ -810,7 +770,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                     {isSubmitting 
                       ? (language === 'en' ? 'Sending...' : 'በመላክ ላይ...')
                       : (language === 'en' ? 'Send Legal Inquiry' : 'የሕግ ጥያቄ ይላኩ')}
-                    {!isSubmitting && <span className="btn-icon">⚡</span>}
+                    {!isSubmitting && <span className="btn-icon"><i className="fas fa-paper-plane"></i></span>}
                   </button>
                 </form>
               </div>
@@ -836,20 +796,13 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
               <div className="link-group">
                 <h4>{language === 'en' ? 'Quick Links' : 'ፈጣን አገናኞች'}</h4>
                 <button onClick={() => scrollToSection('services')}>{currentContent.services}</button>
-                <button onClick={() => scrollToSection('articles')}>{currentContent.articles}</button>
+                <button onClick={() => scrollToSection('about')}>{currentContent.about}</button>
                 <button onClick={() => scrollToSection('contact')}>{currentContent.contact}</button>
-              </div>
-              
-              <div className="link-group">
-                <h4>{language === 'en' ? 'Resources' : 'ሀብቶች'}</h4>
-                <button onClick={() => scrollToSection('laws')}>{currentContent.laws}</button>
-                <button onClick={() => scrollToSection('expertise')}>{currentContent.expertise}</button>
-                <button onClick={() => scrollToSection('partners')}>{currentContent.partners}</button>
               </div>
             </div>
             
             <div className="footer-newsletter">
-              <h4>📬 {currentContent.newsletter}</h4>
+              <h4><i className="fas fa-newspaper"></i> {currentContent.newsletter}</h4>
               <p>{currentContent.newsletterText}</p>
               <div className="newsletter-form">
                 <input 
@@ -874,7 +827,7 @@ As a Partner of the Firm, he contributes to the provision of high-quality legal 
                   onClick={() => handleSocialClick(social.url)}
                   aria-label={social.platform}
                 >
-                  {social.icon}
+                  {renderSocialIcon(social.icon)}
                 </button>
               ))}
             </div>
