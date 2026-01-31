@@ -77,14 +77,41 @@ Strategically positioned within international legal and professional networks, w
         '🌍 Foreign Investment'
       ],
 
-      laws: 'Ethiopian Legal Codes',
-      lawsList: [
-        ['📚 Civil Code', 'The comprehensive code governing civil matters, contracts, property, and obligations.'],
-        ['⚖️ Criminal Code', 'Defines crimes, penalties, and criminal procedures in Ethiopia.'],
-        ['💼 Commercial Code', 'Regulates commercial activities, companies, and business organizations.'],
-        ['👥 Labour Proclamation', 'Governs employment relationships and labor rights.'],
-        ['🏦 Banking Business', 'Regulates banking and financial institutions.'],
-        ['🌿 Environmental Protection', 'Framework for environmental protection and management.']
+      // Updated: Changed from "laws" to "legalCodes" with categories
+      legalCodes: 'Ethiopian Legal Framework',
+      legalCodesList: [
+        {
+          category: 'Codes',
+          items: [
+            '📚 Civil Code',
+            '⚖️ Criminal Code',
+            '💼 Commercial Code'
+          ]
+        },
+        {
+          category: 'Proclamations',
+          items: [
+            '👥 Labour Proclamation',
+            '🏛️ Investment Proclamation',
+            '🏦 Banking Business Proclamation'
+          ]
+        },
+        {
+          category: 'Regulations',
+          items: [
+            '📋 Trade Regulations',
+            '📊 Financial Regulations',
+            '🛡️ Insurance Regulations'
+          ]
+        },
+        {
+          category: 'Directives',
+          items: [
+            '🎯 Central Bank Directives',
+            '📈 Capital Market Directives',
+            '🏢 Regulatory Directives'
+          ]
+        }
       ],
 
       articles: 'Legal Articles & Insights',
@@ -108,10 +135,10 @@ Strategically positioned within international legal and professional networks, w
       
       socialMedia: 'Connect With Us',
       socialLinks: [
-        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
+        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/meridian-law-firm-llp-ethiopia-3693593a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: '#0077B5' },
         { platform: 'Facebook', icon: 'facebook', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
         { platform: 'Telegram', icon: 'telegram', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
-        { platform: 'Twitter', icon: 'twitter', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
+        { platform: 'TikTok', icon: 'tiktok', url: 'https://www.tiktok.com/@meridianlawfirm?_r=1&_t=ZN-93TffCGfLiY', color: '#000000' },
         { platform: 'YouTube', icon: 'youtube', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
       ]
     },
@@ -165,10 +192,41 @@ Strategically positioned within international legal and professional networks, w
         '🌍 የውጭ ኢንቨስትመንት'
       ],
 
-      laws: 'የኢትዮጵያ ሕጎች',
-      lawsList: [
-        ['📚 ሲቪል ኮድ', 'ሲቪል ጉዳዮች፣ ኮንትራት፣ ንብረት እና ግዴታዎችን የሚያስተዳድር።'],
-        ['⚖️ የወንጀል ኮድ', 'በኢትዮጵያ ውስጥ ወንጀሎች፣ ቅጣቶች እና የወንጀል ሂደቶች።']
+      // Updated: Changed from "laws" to "legalCodes" with categories
+      legalCodes: 'የኢትዮጵያ ሕግ መዋቅር',
+      legalCodesList: [
+        {
+          category: 'ኮዶች',
+          items: [
+            '📚 ሲቪል ኮድ',
+            '⚖️ የወንጀል ኮድ',
+            '💼 ንግድ ኮድ'
+          ]
+        },
+        {
+          category: 'አዋጆች',
+          items: [
+            '👥 የሰራተኞች አዋጅ',
+            '🏛️ የኢንቨስትመንት አዋጅ',
+            '🏦 የባንክ ንግድ አዋጅ'
+          ]
+        },
+        {
+          category: 'ደንቦች',
+          items: [
+            '📋 የንግድ ደንቦች',
+            '📊 የፋይናንስ ደንቦች',
+            '🛡️ የኢንሹራንስ ደንቦች'
+          ]
+        },
+        {
+          category: 'መመሪያዎች',
+          items: [
+            '🎯 የማእከላዊ ባንክ መመሪያዎች',
+            '📈 የካፒታል ገበያ መመሪያዎች',
+            '🏢 የቁጥጥር መመሪያዎች'
+          ]
+        }
       ],
 
       articles: 'የሕግ ጽሁፎች እና ግንዛቤዎች',
@@ -190,10 +248,10 @@ Strategically positioned within international legal and professional networks, w
       
       socialMedia: 'ከእኛ ጋር ይገናኙ',
       socialLinks: [
-        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/company/meridian-law-firm', color: '#0077B5' },
+        { platform: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/meridian-law-firm-llp-ethiopia-3693593a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: '#0077B5' },
         { platform: 'Facebook', icon: 'facebook', url: 'https://facebook.com/meridianlawfirm', color: '#1877F2' },
         { platform: 'Telegram', icon: 'telegram', url: 'https://t.me/meridianlawfirm', color: '#0088CC' },
-        { platform: 'Twitter', icon: 'twitter', url: 'https://twitter.com/meridianlaw', color: '#1DA1F2' },
+        { platform: 'TikTok', icon: 'tiktok', url: 'https://www.tiktok.com/@meridianlawfirm?_r=1&_t=ZN-93TffCGfLiY', color: '#000000' },
         { platform: 'YouTube', icon: 'youtube', url: 'https://youtube.com/c/meridianlawfirm', color: '#FF0000' }
       ]
     }
@@ -293,7 +351,7 @@ Strategically positioned within international legal and professional networks, w
     window.open(currentContent.whatsapp, '_blank');
   };
 
-  // Render social media icon
+  // Render social media icon with updated icons
   const renderSocialIcon = (iconName) => {
     switch(iconName) {
       case 'linkedin':
@@ -302,8 +360,8 @@ Strategically positioned within international legal and professional networks, w
         return <i className="fab fa-facebook-f"></i>;
       case 'telegram':
         return <i className="fab fa-telegram-plane"></i>;
-      case 'twitter':
-        return <i className="fab fa-twitter"></i>;
+      case 'tiktok':
+        return <i className="fab fa-tiktok"></i>;
       case 'youtube':
         return <i className="fab fa-youtube"></i>;
       case 'whatsapp':
@@ -405,6 +463,11 @@ Strategically positioned within international legal and professional networks, w
             </button>
           </li>
           <li>
+            <button onClick={() => scrollToSection('legal-codes')} className={activeSection === 'legal-codes' ? 'active' : ''}>
+              📚 {currentContent.legalCodes}
+            </button>
+          </li>
+          <li>
             <button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>
               📞 {currentContent.contact}
             </button>
@@ -418,7 +481,7 @@ Strategically positioned within international legal and professional networks, w
         <section className="hero" id="home">
           <div className="hero-background">
             <div className="bg-grid"></div>
-            <div className="bg-shapes">
+                <div className="bg-shapes">
               <div className="shape shape-1"></div>
               <div className="shape shape-2"></div>
               <div className="shape shape-3"></div>
@@ -628,6 +691,41 @@ Strategically positioned within international legal and professional networks, w
           </div>
         </section>
 
+        {/* Legal Codes Section - Updated */}
+        <section className="section legal-codes-section" id="legal-codes">
+          <div className="container">
+            <div className="section-header">
+              <div className="section-icon">📚</div>
+              <h2>{currentContent.legalCodes}</h2>
+              <div className="section-subtitle">
+                {language === 'en' ? 'Comprehensive Ethiopian Legal Framework' : 'የተሟላ የኢትዮጵያ ሕግ መዋቅር'}
+              </div>
+            </div>
+            
+            <div className="legal-codes-grid">
+              {currentContent.legalCodesList.map((category, index) => (
+                <div className="category-card" key={index} style={{ '--delay': index * 0.1 + 's' }}>
+                  <div className="category-header">
+                    <h3>{category.category}</h3>
+                  </div>
+                  <div className="category-items">
+                    {category.items.map((item, itemIndex) => {
+                      const icon = item.charAt(0);
+                      const text = item.slice(2);
+                      return (
+                        <div className="code-item" key={itemIndex}>
+                          <span className="code-icon">{icon}</span>
+                          <span className="code-text">{text}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="section contact-section" id="contact">
           <div className="container">
@@ -797,6 +895,7 @@ Strategically positioned within international legal and professional networks, w
                 <h4>{language === 'en' ? 'Quick Links' : 'ፈጣን አገናኞች'}</h4>
                 <button onClick={() => scrollToSection('services')}>{currentContent.services}</button>
                 <button onClick={() => scrollToSection('about')}>{currentContent.about}</button>
+                <button onClick={() => scrollToSection('legal-codes')}>{currentContent.legalCodes}</button>
                 <button onClick={() => scrollToSection('contact')}>{currentContent.contact}</button>
               </div>
             </div>
