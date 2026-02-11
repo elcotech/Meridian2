@@ -77,7 +77,6 @@ Strategically positioned within international legal and professional networks, w
         '🌍 Foreign Investment'
       ],
 
-      // Updated: Changed from "laws" to "legalCodes" with categories
       legalCodes: 'Ethiopian Legal Framework',
       legalCodesList: [
         {
@@ -144,7 +143,7 @@ Strategically positioned within international legal and professional networks, w
     },
     
     am: {
-      name: 'ሜሪዲያን የሕግ ቢሮ',
+      name: 'ሜሪዲያን የሕግ ቢሮ LLP',
       title: 'ብቁ የሆነ የሕግ አገልግሎት',
       location: 'አዲስ አበባ፣ ኢትዮጵያ',
       phone: '+251-900-802400 / +251-911-425414',
@@ -155,7 +154,7 @@ Strategically positioned within international legal and professional networks, w
       welcome: 'በዓለም አቀፍ የሕግ እና ሙያዊ አውታረ መረቦች ውስጥ በስትራቴጂክ ሁኔታ የተቀመጠ',
       description: 'ሙሉ የሕግ አገልግሎት የሚሰጥ ኢትዮጵያዊ የሕግ ቢሮ።',
       
-      about: 'ስለ ቢሮችን',
+      about: 'ስለ ቢሮአችን',
       aboutText: `🏛️ ሜሪዲያን የሕግ ቢሮ - የጥብቅና አገልግሎት
 
 ሙሉ የሕግ አገልግሎት የሚሰጥ ኢትዮጵያዊ የሕግ ቢሮ
@@ -164,20 +163,38 @@ Strategically positioned within international legal and professional networks, w
       services: 'የሕግ አገልግሎቶቻችን',
       servicesList: [
         ['📋 የሕግ ምክር አገልግሎቶች', 'የባለሙያ የሕግ መመሪያ የንግድዎን ጉዳዮች ለማስተናገድ።'],
-        ['💼 ንግድ ሕግ', 'ከመጀመሪያ እስከ ባለብዙ ብሔራዊ ድርጅት ድረስ የሚያስገቡ ንግዶች።'],
-        ['⚔️ የፍርድ እና መከላከያ', 'በሲቪል እና የወንጀል ፍርድ ጉዳዮች።'],
-        ['💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ', 'የታክስ ግዴታዎችን ከፍተኛ ደረጃ ላይ መርምር።'],
+        ['💼 ንግድ ሕግ', 'ከመጀመሪያ እስከ ባለብዙ ብሔራዊ ድርጅት ድረስ የሚመሩ ንግዶች።'],
+        ['⚔️ የፍርድ እና መከላከያ', 'በሲቪል እና የወንጀል ፍርድ ጉዳዮች ልምድ ያለው አገልግሎት።'],
+        ['💰 የታክስ ሕግ እና የፋይናንስ ስትራቴጂ', 'የታክስ ግዴታዎችን ከፍተኛ ደረጃ መርምር።'],
         ['🛡️ የኢንሹራንስ እና ኃላፊነት ምክር', 'ስለ ኃላፊነት እና አደጋ አስተዳደር ምክር መስጠት።'],
-        ['🌍 የሚያሟላ የሕግ አገልግሎት', 'በኢትዮጵያ ሕግ ሁሉም መስኮች የባለሙያ ወክል።']
+        ['🌍 የተሟላ የሕግ አገልግሎት', 'በኢትዮጵያ ሕግ ሁሉም መስኮች የባለሙያ ውክልና።']
       ],
 
       partners: 'የሕግ አጋሮቻችን',
       partnersList: [
         {
           name: 'መስፍን ማሬ ወልደጊዮርጊስ',
-          title: 'የሚናገር አጋር',
-          description: 'ሙያዊ ማጠቃለያ: ከሠላሳ ዓመት በላይ ልዩ የሆነ ልምድ ያለው የሕግ ሙያ ባለሙያ።',
-          fullText: `በመንግሥታዊ እና በየግል የሕግ ተግባር ውስጥ ልዩ አገልግሎት በመስጠት በርካታ የሕግ ሙያ ልምድ አለው።`
+          title: 'አስተዳዳሪ አጋር',
+          description: 'ሙያዊ ማጠቃለያ: ከፍተኛ የሕግ ሙያ ባለሙያ፣ በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው።',
+          fullText: `በሕገ መንግሥት ሕግ፣ ዓለም አቀፍ ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
+        },
+        {
+          name: 'ሀብታሙ ብስራት ከበደ',
+          title: 'ምክትል አስተዳዳሪ አጋር',
+          description: 'ሙያዊ ማጠቃለያ: በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው የሕግ ባለሙያ።',
+          fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
+        },
+        {
+          name: 'ጣለማ ግዛቸው ብዙነህ',
+          title: 'አጋር',
+          description: 'ሙያዊ ማጠቃለያ: በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው ከፍተኛ የሕግ ባለሙያ።',
+          fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
+        },
+        {
+          name: 'አክሊሉ አበባው በላይ',
+          title: 'አጋር',
+          description: 'ሙያዊ ማጠቃለያ: በተለያዩ የመንግሥት ተቋማት፣ የመንግሥት ኮርፖሬሽኖች እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው ከፍተኛ የሕግ ባለሙያ።',
+          fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ፣ የታክስ ሕግ እና የአካባቢ ሕግ ሰፊ እውቀት ያለው።`
         }
       ],
 
@@ -192,13 +209,12 @@ Strategically positioned within international legal and professional networks, w
         '🌍 የውጭ ኢንቨስትመንት'
       ],
 
-      // Updated: Changed from "laws" to "legalCodes" with categories
       legalCodes: 'የኢትዮጵያ ሕግ መዋቅር',
       legalCodesList: [
         {
           category: 'ኮዶች',
           items: [
-            '📚 ሲቪል ኮድ',
+            '📚 ፍትሐ ብሔር ኮድ',
             '⚖️ የወንጀል ኮድ',
             '💼 ንግድ ኮድ'
           ]
@@ -206,7 +222,7 @@ Strategically positioned within international legal and professional networks, w
         {
           category: 'አዋጆች',
           items: [
-            '👥 የሰራተኞች አዋጅ',
+            '👥 የሠራተኞች አዋጅ',
             '🏛️ የኢንቨስትመንት አዋጅ',
             '🏦 የባንክ ንግድ አዋጅ'
           ]
@@ -222,28 +238,28 @@ Strategically positioned within international legal and professional networks, w
         {
           category: 'መመሪያዎች',
           items: [
-            '🎯 የማእከላዊ ባንክ መመሪያዎች',
+            '🎯 የማዕከላዊ ባንክ መመሪያዎች',
             '📈 የካፒታል ገበያ መመሪያዎች',
             '🏢 የቁጥጥር መመሪያዎች'
           ]
         }
       ],
 
-      articles: 'የሕግ ጽሁፎች እና ግንዛቤዎች',
+      articles: 'የሕግ ጽሑፎች እና ግንዛቤዎች',
       articlesList: [
-        ['📈 የኢትዮጵያ ኢንቨስትመንት ሕጎች', 'ወደ ኢትዮጵያ ገበያ ለሚገቡ የውጭ ባለሃብቶች።'],
-        ['⚖️ በንግድ ክርክር መፍትሄ', 'የንግድ ፍርድ ላይ ተጽዕኖ የሚያሳድሩ ሕጎች።']
+        ['📈 የኢትዮጵያ ኢንቨስትመንት ሕጎች', 'ወደ ኢትዮጵያ ገበያ ለሚገቡ የውጭ ባለሃብቶች ቁልፍ መረጃዎች።'],
+        ['⚖️ የንግድ ክርክር መፍትሄ', 'በንግድ ክርክር ላይ ተጽዕኖ የሚያሳድሩ አዳዲስ የሥርዓት ሕጎች ትንተና።']
       ],
 
       newsletter: 'የሕግ ዲጄስታችንን ይቀላቀሉ',
-      newsletterText: 'የባለሙያ የሕግ ግንዛቤዎችን እና የሕግ ማዘመኛዎችን በኢሜልዎ ይቀበሉ።',
+      newsletterText: 'የባለሙያ የሕግ ግንዛቤዎችን፣ የሕግ ማሻሻያዎችን እና የቢሮ ማስታወቂያዎችን በኢሜልዎ ይቀበሉ።',
       
       contact: 'አግኙን',
-      officeHours: 'የስራ ሰዓቶች',
+      officeHours: 'የሥራ ሰዓቶች',
       hours: [
-        'ሰኞ - አርብ: 8:30 ጥዋት - 5:30 ከሰዓት',
+        'ሰኞ - ዓርብ: 8:30 ጥዋት - 5:30 ከሰዓት',
         'ቅዳሜ: 9:00 ጥዋት - 1:00 ከሰዓት',
-        'ለአደጋ ጊዜ ምክር ይገኛል'
+        'ለአደጋ ጊዜ ምክክር ይገኛል'
       ],
       
       socialMedia: 'ከእኛ ጋር ይገናኙ',
@@ -351,7 +367,7 @@ Strategically positioned within international legal and professional networks, w
     window.open(currentContent.whatsapp, '_blank');
   };
 
-  // Render social media icon with updated icons
+  // Render social media icon
   const renderSocialIcon = (iconName) => {
     switch(iconName) {
       case 'linkedin':
@@ -481,7 +497,7 @@ Strategically positioned within international legal and professional networks, w
         <section className="hero" id="home">
           <div className="hero-background">
             <div className="bg-grid"></div>
-                <div className="bg-shapes">
+            <div className="bg-shapes">
               <div className="shape shape-1"></div>
               <div className="shape shape-2"></div>
               <div className="shape shape-3"></div>
@@ -491,7 +507,7 @@ Strategically positioned within international legal and professional networks, w
           <div className="container">
             <div className="hero-content">
               <div className="hero-badge">
-                <span>⚖️ {language === 'en' ? 'ESTABLISHED 1994' : 'ከ1994 ጀምሮ'}</span>
+                <span>⚖️ {language === 'en' ? 'ESTABLISHED 1994' : 'ከ1994 ዓ.ም. ጀምሮ'}</span>
               </div>
               
               <h1 className="hero-title">
@@ -507,7 +523,7 @@ Strategically positioned within international legal and professional networks, w
                   <span className="stat-text">{language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-text">{language === 'en' ? 'Proven Track Record' : 'የተረጋገጠ አስፈጻሚነት'}</span>
+                  <span className="stat-text">{language === 'en' ? 'Proven Track Record' : 'የተረጋገጠ አፈጻጸም'}</span>
                 </div>
                 <div className="stat-item">
                   <span className="stat-text">{language === 'en' ? 'International Reach' : 'ዓለም አቀፍ ሽፋን'}</span>
@@ -542,7 +558,7 @@ Strategically positioned within international legal and professional networks, w
               <div className="section-icon">🏛️</div>
               <h2>{currentContent.about}</h2>
               <div className="section-subtitle">
-                {language === 'en' ? 'Three Decades of Legal Excellence' : 'ሦስት አስርት ዓመታት የሕግ ልዩነት'}
+                {language === 'en' ? 'Three Decades of Legal Excellence' : 'ሦስት አስርት ዓመታት የሕግ ልዕልና'}
               </div>
             </div>
             
@@ -554,7 +570,7 @@ Strategically positioned within international legal and professional networks, w
                   <div className="details-content">
                     <p>{language === 'en' 
                       ? 'Through strategic legal advocacy and informed consultation, we position our clients at the forefront of their fields. Our team of experienced attorneys combines deep knowledge of Ethiopian law with international legal expertise to deliver exceptional results.' 
-                      : 'በስትራቴጂክ የሕግ አማራጭ እና በተማረ ምክር አማካኝነት ደንበኞቻችን በራሳቸው መስኮች መሪዎች እንዲሆኑ እናግዛለን። የተሞክሮ ያላቸው የሕግ ባለሙያዎች የኢትዮጵያ ሕግ ጥልቅ እውቀት ከዓለም አቀፍ የሕግ ብቃት ጋር በማጣመር ልዩ ውጤቶችን ያቀርባሉ።'}
+                      : 'በስትራቴጂክ የሕግ ተሟጋችነት እና በተማረ ምክክር አማካኝነት ደንበኞቻችን በራሳቸው መስኮች ግንባር ቀደም እንዲሆኑ እናደርጋለን። ልምድ ያላቸው የሕግ ባለሙያዎቻችን የኢትዮጵያ ሕግ ጥልቅ እውቀት ከዓለም አቀፍ የሕግ ብቃት ጋር በማጣመር ልዩ ውጤቶችን ያስገኛሉ።'}
                     </p>
                   </div>
                 </details>
@@ -569,11 +585,11 @@ Strategically positioned within international legal and professional networks, w
               <div className="about-visual">
                 <div className="visual-card">
                   <div className="visual-icon">⚖️</div>
-                  <h3>{language === 'en' ? 'Our Mission' : 'ተልዕኮችን'}</h3>
+                  <h3>{language === 'en' ? 'Our Mission' : 'ተልዕኮአችን'}</h3>
                   <p>
                     {language === 'en' 
                       ? 'To deliver exceptional legal services with integrity, expertise, and unwavering commitment to our clients\' success.' 
-                      : 'በንጹህ ልቦለድ፣ በሙያ እና በደንበኞቻችን ስኬት ላይ በማይናወጥ ቁርጠኝነት ልዩ የሕግ አገልግሎቶችን ማቅረብ።'}
+                      : 'በታማኝነት፣ በሙያ ብቃት እና በደንበኞቻችን ስኬት ላይ በማይናወጥ ቁርጠኝነት ልዩ የሕግ አገልግሎቶችን ማቅረብ።'}
                   </p>
                 </div>
               </div>
@@ -664,7 +680,7 @@ Strategically positioned within international legal and professional networks, w
               <div className="section-icon">🎯</div>
               <h2>{currentContent.expertise}</h2>
               <div className="section-subtitle">
-                {language === 'en' ? 'Our Core Competencies' : 'ዋና አቅምችን'}
+                {language === 'en' ? 'Our Core Competencies' : 'ዋና አቅሞቻችን'}
               </div>
             </div>
             
@@ -679,10 +695,10 @@ Strategically positioned within international legal and professional networks, w
             
             <div className="expertise-stats">
               <div className="stat-card">
-                <div className="stat-text">{language === 'en' ? 'Exceptional Success Rate' : 'የተሻለ የስኬት መጠን'}</div>
+                <div className="stat-text">{language === 'en' ? 'Exceptional Success Rate' : 'የላቀ የስኬት መጠን'}</div>
               </div>
               <div className="stat-card">
-                <div className="stat-text">{language === 'en' ? 'Round the Clock Support' : 'ሙሉ ጊዜ ድጋፍ'}</div>
+                <div className="stat-text">{language === 'en' ? '24/7 Client Support' : 'ሙሉ ጊዜ የደንበኛ ድጋፍ'}</div>
               </div>
               <div className="stat-card">
                 <div className="stat-text">{language === 'en' ? 'Vast Expert Network' : 'ሰፊ የባለሙያ አውታረመረብ'}</div>
@@ -691,7 +707,7 @@ Strategically positioned within international legal and professional networks, w
           </div>
         </section>
 
-        {/* Legal Codes Section - Updated */}
+        {/* Legal Codes Section */}
         <section className="section legal-codes-section" id="legal-codes">
           <div className="container">
             <div className="section-header">
@@ -733,7 +749,7 @@ Strategically positioned within international legal and professional networks, w
               <div className="section-icon">📞</div>
               <h2>{currentContent.contact}</h2>
               <div className="section-subtitle">
-                {language === 'en' ? 'Get Your Legal Consultation' : 'የሕግ ምክርዎን ያግኙ'}
+                {language === 'en' ? 'Get Your Legal Consultation' : 'የሕግ ምክክርዎን ያግኙ'}
               </div>
             </div>
             
@@ -767,7 +783,7 @@ Strategically positioned within international legal and professional networks, w
                   <div className="contact-item">
                     <span className="contact-icon"><i className="fas fa-globe"></i></span>
                     <div>
-                      <strong>{language === 'en' ? 'Website' : 'ድህረገፅ'}</strong>
+                      <strong>{language === 'en' ? 'Website' : 'ድህረገጽ'}</strong>
                       <a href={currentContent.website} target="_blank" rel="noopener noreferrer">
                         {currentContent.website}
                       </a>
@@ -779,7 +795,7 @@ Strategically positioned within international legal and professional networks, w
                     <div>
                       <strong>WhatsApp</strong>
                       <a href={currentContent.whatsapp} target="_blank" rel="noopener noreferrer">
-                        {language === 'en' ? 'Chat with us' : 'ከእኛ ጋር ይተዋወቁ'}
+                        {language === 'en' ? 'Chat with us' : 'ከእኛ ጋር ይነጋገሩ'}
                       </a>
                     </div>
                   </div>
@@ -833,7 +849,7 @@ Strategically positioned within international legal and professional networks, w
                   <div className="form-group">
                     <select name="service" required>
                       <option value="">
-                        {language === 'en' ? 'Select Legal Service Needed' : 'የሚያስፈልገውን የሕግ አገልግሎት ይምረጡ'}
+                        {language === 'en' ? 'Select Legal Service Needed' : 'የሚፈልጉትን የሕግ አገልግሎት ይምረጡ'}
                       </option>
                       <option value="advisory">
                         {language === 'en' ? 'Legal Advisory Services' : 'የሕግ ምክር አገልግሎቶች'}
@@ -842,7 +858,7 @@ Strategically positioned within international legal and professional networks, w
                         {language === 'en' ? 'Commercial Law' : 'ንግድ ሕግ'}
                       </option>
                       <option value="litigation">
-                        {language === 'en' ? 'Litigation & Defense' : 'ፍርድ እና መከላከያ'}
+                        {language === 'en' ? 'Litigation & Defense' : 'ክርክር እና መከላከያ'}
                       </option>
                       <option value="tax">
                         {language === 'en' ? 'Tax Law & Financial Strategy' : 'የታክስ ሕግ እና የፋይናንስ ስትራቴጂ'}
@@ -886,7 +902,7 @@ Strategically positioned within international legal and professional networks, w
               <p className="footer-tagline">
                 {language === 'en' 
                   ? 'Excellence in Legal Representation' 
-                  : 'በሕግ ወክልነት ውስጥ ልዩነት'}
+                  : 'በሕግ ውክልና ልዕልና'}
               </p>
             </div>
             
