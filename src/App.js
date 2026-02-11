@@ -392,7 +392,7 @@ Strategically positioned within international legal and professional networks, w
       {/* Book Consultation Button */}
       <button className="book-consultation-btn" onClick={() => scrollToSection('contact')}>
         <i className="fas fa-calendar-check"></i>
-        {language === 'en' ? 'Book Consultation' : 'ምክር ያስይዙ'}
+        {language === 'en' ? 'Book Consultation' : 'ምክር'}
       </button>
 
       {/* WhatsApp Button */}
