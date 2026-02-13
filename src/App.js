@@ -443,14 +443,6 @@ Strategically positioned within international legal and professional networks, w
           <li><button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>📞 {currentContent.contact}</button></li>
         </ul>
       </nav>
-{/* YOUR LADY JUSTICE IMAGE - STUNNING ANIMATIONS */}
-            <div className="hero-visual">
-              <img 
-                src="/1.png" 
-                alt="Statue of Lady Justice holding scales and sword, symbolizing fairness and law"
-                className="lady-justice-img"
-              />
-            </div>
 
       {/* Main Content */}
       <main>
@@ -466,7 +458,7 @@ Strategically positioned within international legal and professional networks, w
           <div className="container">
             <div className="hero-content">
               <div className="hero-badge">
-                <span>⚖️ {language === 'en' ? 'Amazing service' : 'አስገራሚ አገልግሎት'}</span>
+                <span>⚖️ {language === 'en' ? 'Amazing Service' : 'አስገራሚ አገልግሎት'}</span>
               </div>
               <h1 className="hero-title">
                 <span className="title-line title-line-1">{currentContent.name}</span>
@@ -489,7 +481,15 @@ Strategically positioned within international legal and professional networks, w
               </div>
             </div>
             
-                      </div>
+            {/* YOUR LADY JUSTICE IMAGE - STUNNING ANIMATIONS */}
+            <div className="hero-visual">
+              <img 
+                src="/1.png" 
+                alt="Statue of Lady Justice holding scales and sword, symbolizing fairness and law"
+                className="lady-justice-img"
+              />
+            </div>
+          </div>
           <div className="scroll-indicator">
             <div className="mouse"><div className="wheel"></div></div>
             <span>{language === 'en' ? 'Scroll to explore' : 'ለማየት ይሸብልሉ'}</span>
