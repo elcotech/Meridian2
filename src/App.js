@@ -8,7 +8,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Content for both languages
+  // Content for both languages (exactly as you provided - unchanged)
   const content = {
     en: {
       name: 'MERIDIAN LAW FIRM LLP',
@@ -367,23 +367,15 @@ Strategically positioned within international legal and professional networks, w
     window.open(currentContent.whatsapp, '_blank');
   };
 
-  // Render social media icon
   const renderSocialIcon = (iconName) => {
     switch(iconName) {
-      case 'linkedin':
-        return <i className="fab fa-linkedin-in"></i>;
-      case 'facebook':
-        return <i className="fab fa-facebook-f"></i>;
-      case 'telegram':
-        return <i className="fab fa-telegram-plane"></i>;
-      case 'tiktok':
-        return <i className="fab fa-tiktok"></i>;
-      case 'youtube':
-        return <i className="fab fa-youtube"></i>;
-      case 'whatsapp':
-        return <i className="fab fa-whatsapp"></i>;
-      default:
-        return iconName;
+      case 'linkedin': return <i className="fab fa-linkedin-in"></i>;
+      case 'facebook': return <i className="fab fa-facebook-f"></i>;
+      case 'telegram': return <i className="fab fa-telegram-plane"></i>;
+      case 'tiktok': return <i className="fab fa-tiktok"></i>;
+      case 'youtube': return <i className="fab fa-youtube"></i>;
+      case 'whatsapp': return <i className="fab fa-whatsapp"></i>;
+      default: return iconName;
     }
   };
 
@@ -421,79 +413,40 @@ Strategically positioned within international legal and professional networks, w
         <button
           className={`lang-btn ${language === 'en' ? 'active' : ''}`}
           onClick={() => setLanguage('en')}
-        >
-          🇬🇧 EN
-        </button>
+        >🇬🇧 EN</button>
         <button
           className={`lang-btn ${language === 'am' ? 'active' : ''}`}
           onClick={() => setLanguage('am')}
-        >
-          🇪🇹 AM
-        </button>
+        >🇪🇹 AM</button>
       </div>
 
       {/* Mobile Menu Toggle */}
-      <button 
-        className="menu-toggle"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-        aria-label="Toggle menu"
-      >
+      <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
         <div className={`hamburger ${isMenuOpen ? 'open' : ''}`}>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </div>
       </button>
 
-      {/* Navigation - Dark & Elegant */}
+      {/* Navigation - Ultra Dark & Elegant */}
       <nav className={`nav-main ${isMenuOpen ? 'open' : ''}`}>
         <div className="nav-brand">
           <h1 className="logo">{currentContent.name}</h1>
           <div className="nav-subtitle">{currentContent.title}</div>
         </div>
-        
         <ul className="nav-links">
-          <li>
-            <button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>
-              🏠 {language === 'en' ? 'Home' : 'መግቢያ'}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>
-              🏛️ {currentContent.about}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('services')} className={activeSection === 'services' ? 'active' : ''}>
-              ⚖️ {currentContent.services}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('partners')} className={activeSection === 'partners' ? 'active' : ''}>
-              👥 {currentContent.partners}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>
-              🎯 {currentContent.expertise}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('legal-codes')} className={activeSection === 'legal-codes' ? 'active' : ''}>
-              📚 {currentContent.legalCodes}
-            </button>
-          </li>
-          <li>
-            <button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>
-              📞 {currentContent.contact}
-            </button>
-          </li>
+          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏠 {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
+          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🏛️ {currentContent.about}</button></li>
+          <li><button onClick={() => scrollToSection('services')} className={activeSection === 'services' ? 'active' : ''}>⚖️ {currentContent.services}</button></li>
+          <li><button onClick={() => scrollToSection('partners')} className={activeSection === 'partners' ? 'active' : ''}>👥 {currentContent.partners}</button></li>
+          <li><button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>🎯 {currentContent.expertise}</button></li>
+          <li><button onClick={() => scrollToSection('legal-codes')} className={activeSection === 'legal-codes' ? 'active' : ''}>📚 {currentContent.legalCodes}</button></li>
+          <li><button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>📞 {currentContent.contact}</button></li>
         </ul>
       </nav>
 
       {/* Main Content */}
       <main>
-        {/* Hero Section */}
+        {/* HERO SECTION - Your Lady Justice Image */}
         <section className="hero" id="home">
           <div className="hero-background">
             <div className="bg-grid"></div>
@@ -502,63 +455,48 @@ Strategically positioned within international legal and professional networks, w
               <div className="shape shape-2"></div>
             </div>
           </div>
-          
           <div className="container">
             <div className="hero-content">
               <div className="hero-badge">
                 <span>⚖️ {language === 'en' ? 'ESTABLISHED 1994' : 'ከ1994 ዓ.ም. ጀምሮ'}</span>
               </div>
-              
               <h1 className="hero-title">
                 <span className="title-line title-line-1">{currentContent.name}</span>
                 <span className="title-line title-line-2">{currentContent.title}</span>
               </h1>
-              
               <p className="hero-subtitle">{currentContent.welcome}</p>
               <p className="hero-description">{currentContent.description}</p>
-              
               <div className="hero-stats">
-                <div className="stat-item">
-                  <span className="stat-text">{language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-text">{language === 'en' ? 'Proven Track Record' : 'የተረጋገጠ አፈጻጸም'}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-text">{language === 'en' ? 'International Reach' : 'ዓለም አቀፍ ሽፋን'}</span>
-                </div>
+                <div className="stat-item"><span className="stat-text">{language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}</span></div>
+                <div className="stat-item"><span className="stat-text">{language === 'en' ? 'Proven Track Record' : 'የተረጋገጠ አፈጻጸም'}</span></div>
+                <div className="stat-item"><span className="stat-text">{language === 'en' ? 'International Reach' : 'ዓለም አቀፍ ሽፋን'}</span></div>
               </div>
-              
               <div className="hero-buttons">
                 <button onClick={() => scrollToSection('contact')} className="btn btn-primary">
-                  <i className="fas fa-calendar-alt"></i>
-                  {language === 'en' ? 'Schedule Consultation' : 'ምክር ያስይዙ'}
+                  <i className="fas fa-calendar-alt"></i> {language === 'en' ? 'Schedule Consultation' : 'ምክር ያስይዙ'}
                 </button>
                 <button onClick={() => scrollToSection('services')} className="btn btn-secondary">
-                  <i className="fas fa-gavel"></i>
-                  {language === 'en' ? 'View Services' : 'አገልግሎቶችን ይመልከቱ'}
+                  <i className="fas fa-gavel"></i> {language === 'en' ? 'View Services' : 'አገልግሎቶችን ይመልከቱ'}
                 </button>
               </div>
             </div>
             
-            {/* LADY JUSTICE PNG - your image, professionally animated */}
+            {/* YOUR LADY JUSTICE IMAGE - STUNNING ANIMATIONS */}
             <div className="hero-visual">
               <img 
-                src="/images/lady-justice.png" 
+                src="/1.png" 
                 alt="Statue of Lady Justice holding scales and sword, symbolizing fairness and law"
                 className="lady-justice-img"
               />
             </div>
           </div>
-          
           <div className="scroll-indicator">
-            <div className="mouse">
-              <div className="wheel"></div>
-            </div>
+            <div className="mouse"><div className="wheel"></div></div>
             <span>{language === 'en' ? 'Scroll to explore' : 'ለማየት ይሸብልሉ'}</span>
           </div>
         </section>
 
+        {/* All other sections remain exactly as in your original code - they are already perfect */}
         {/* About Section */}
         <section className="section about-section" id="about">
           <div className="container">
@@ -569,7 +507,6 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Three Decades of Legal Excellence' : 'ሦስት አስርት ዓመታት የሕግ ልዕልና'}
               </div>
             </div>
-            
             <div className="about-content">
               <div className="about-text">
                 <p className="text-summary">{currentContent.aboutText}</p>
@@ -582,23 +519,19 @@ Strategically positioned within international legal and professional networks, w
                     </p>
                   </div>
                 </details>
-                
                 <div className="excellence-badges">
                   <div className="badge">🏆 {language === 'en' ? 'Award Winning' : 'የሽልማት ተሸላሚ'}</div>
                   <div className="badge">⭐ {language === 'en' ? 'Top Rated' : 'ከፍተኛ ደረጃ'}</div>
                   <div className="badge">🤝 {language === 'en' ? 'Client Focused' : 'በደንበኛ ላይ ያተኮረ'}</div>
                 </div>
               </div>
-              
               <div className="about-visual">
                 <div className="visual-card">
                   <div className="visual-icon">⚖️</div>
                   <h3>{language === 'en' ? 'Our Mission' : 'ተልዕኮአችን'}</h3>
-                  <p>
-                    {language === 'en' 
-                      ? 'To deliver exceptional legal services with integrity, expertise, and unwavering commitment to our clients\' success.' 
-                      : 'በታማኝነት፣ በሙያ ብቃት እና በደንበኞቻችን ስኬት ላይ በማይናወጥ ቁርጠኝነት ልዩ የሕግ አገልግሎቶችን ማቅረብ።'}
-                  </p>
+                  <p>{language === 'en' 
+                    ? 'To deliver exceptional legal services with integrity, expertise, and unwavering commitment to our clients\' success.' 
+                    : 'በታማኝነት፣ በሙያ ብቃት እና በደንበኞቻችን ስኬት ላይ በማይናወጥ ቁርጠኝነት ልዩ የሕግ አገልግሎቶችን ማቅረብ።'}</p>
                 </div>
               </div>
             </div>
@@ -615,7 +548,6 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Comprehensive Legal Solutions' : 'የተሟላ የሕግ መፍትሄዎች'}
               </div>
             </div>
-            
             <div className="services-grid">
               {currentContent.servicesList.map(([iconTitle, description], index) => {
                 const icon = iconTitle.charAt(0);
@@ -645,7 +577,6 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Meet Our Legal Experts' : 'የሕግ ባለሙያዎቻችንን ይግኙ'}
               </div>
             </div>
-            
             <div className="partners-grid">
               {currentContent.partnersList.map((partner, index) => (
                 <div className="partner-card" key={index} style={{ '--delay': index * 0.2 + 's' }}>
@@ -658,18 +589,15 @@ Strategically positioned within international legal and professional networks, w
                       <div className="partner-title">{partner.title}</div>
                     </div>
                   </div>
-                  
                   <div className="partner-summary">
                     <p>{partner.description}</p>
                   </div>
-                  
                   <details className="partner-details">
                     <summary>{language === 'en' ? 'View Full Profile' : 'ሙሉ መግለጫ ይመልከቱ'}</summary>
                     <div className="details-content">
                       <p>{partner.fullText}</p>
                     </div>
                   </details>
-                  
                   <div className="partner-experience">
                     <span className="exp-badge">
                       {language === 'en' ? 'Extensive Experience' : 'ሰፊ ልምድ'}
@@ -691,7 +619,6 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Our Core Competencies' : 'ዋና አቅሞቻችን'}
               </div>
             </div>
-            
             <div className="expertise-list">
               {currentContent.expertiseList.map((item, index) => (
                 <div className="expertise-item" key={index} style={{ '--delay': index * 0.1 + 's' }}>
@@ -700,7 +627,6 @@ Strategically positioned within international legal and professional networks, w
                 </div>
               ))}
             </div>
-            
             <div className="expertise-stats">
               <div className="stat-card">
                 <div className="stat-text">{language === 'en' ? 'Exceptional Success Rate' : 'የላቀ የስኬት መጠን'}</div>
@@ -725,7 +651,6 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Comprehensive Ethiopian Legal Framework' : 'የተሟላ የኢትዮጵያ ሕግ መዋቅር'}
               </div>
             </div>
-            
             <div className="legal-codes-grid">
               {currentContent.legalCodesList.map((category, index) => (
                 <div className="category-card" key={index} style={{ '--delay': index * 0.1 + 's' }}>
@@ -760,17 +685,14 @@ Strategically positioned within international legal and professional networks, w
                 {language === 'en' ? 'Get Your Legal Consultation' : 'የሕግ ምክክርዎን ያግኙ'}
               </div>
             </div>
-            
             {submitMessage && (
               <div className={`alert-message ${submitMessage.includes('✅') ? 'success' : 'error'}`}>
                 {submitMessage}
               </div>
             )}
-            
             <div className="contact-grid">
               <div className="contact-info">
                 <h3>📍 {currentContent.location}</h3>
-                
                 <div className="contact-details">
                   <div className="contact-item">
                     <span className="contact-icon"><i className="fas fa-phone"></i></span>
@@ -779,7 +701,6 @@ Strategically positioned within international legal and professional networks, w
                       <a href={`tel:${currentContent.phone}`}>{currentContent.phone}</a>
                     </div>
                   </div>
-                  
                   <div className="contact-item">
                     <span className="contact-icon"><i className="fas fa-envelope"></i></span>
                     <div>
@@ -787,17 +708,13 @@ Strategically positioned within international legal and professional networks, w
                       <a href={`mailto:${currentContent.email}`}>{currentContent.email}</a>
                     </div>
                   </div>
-                  
                   <div className="contact-item">
                     <span className="contact-icon"><i className="fas fa-globe"></i></span>
                     <div>
                       <strong>{language === 'en' ? 'Website' : 'ድህረገጽ'}</strong>
-                      <a href={currentContent.website} target="_blank" rel="noopener noreferrer">
-                        {currentContent.website}
-                      </a>
+                      <a href={currentContent.website} target="_blank" rel="noopener noreferrer">{currentContent.website}</a>
                     </div>
                   </div>
-
                   <div className="contact-item">
                     <span className="contact-icon"><i className="fab fa-whatsapp"></i></span>
                     <div>
@@ -808,14 +725,10 @@ Strategically positioned within international legal and professional networks, w
                     </div>
                   </div>
                 </div>
-                
                 <div className="office-hours">
                   <h4><i className="far fa-clock"></i> {currentContent.officeHours}</h4>
-                  {currentContent.hours.map((hour, index) => (
-                    <p key={index}>{hour}</p>
-                  ))}
+                  {currentContent.hours.map((hour, index) => <p key={index}>{hour}</p>)}
                 </div>
-                
                 <div className="social-section">
                   <h4><i className="fas fa-share-alt"></i> {currentContent.socialMedia}</h4>
                   <div className="social-buttons">
@@ -833,61 +746,32 @@ Strategically positioned within international legal and professional networks, w
                   </div>
                 </div>
               </div>
-              
               <div className="contact-form-wrapper">
                 <form className="contact-form" onSubmit={handleSubmit}>
                   <div className="form-group">
-                    <input 
-                      type="text" 
-                      name="name" 
-                      placeholder={language === 'en' ? 'Full Name' : 'ሙሉ ስም'} 
-                      required 
-                    />
+                    <input type="text" name="name" placeholder={language === 'en' ? 'Full Name' : 'ሙሉ ስም'} required />
                   </div>
-                  
                   <div className="form-group">
-                    <input 
-                      type="email" 
-                      name="email" 
-                      placeholder={language === 'en' ? 'Email Address' : 'ኢሜል አድራሻ'} 
-                      required 
-                    />
+                    <input type="email" name="email" placeholder={language === 'en' ? 'Email Address' : 'ኢሜል አድራሻ'} required />
                   </div>
-                  
                   <div className="form-group">
                     <select name="service" required>
-                      <option value="">
-                        {language === 'en' ? 'Select Legal Service Needed' : 'የሚፈልጉትን የሕግ አገልግሎት ይምረጡ'}
-                      </option>
-                      <option value="advisory">
-                        {language === 'en' ? 'Legal Advisory Services' : 'የሕግ ምክር አገልግሎቶች'}
-                      </option>
-                      <option value="commercial">
-                        {language === 'en' ? 'Commercial Law' : 'ንግድ ሕግ'}
-                      </option>
-                      <option value="litigation">
-                        {language === 'en' ? 'Litigation & Defense' : 'ክርክር እና መከላከያ'}
-                      </option>
-                      <option value="tax">
-                        {language === 'en' ? 'Tax Law & Financial Strategy' : 'የታክስ ሕግ እና የፋይናንስ ስትራቴጂ'}
-                      </option>
-                      <option value="foreign">
-                        {language === 'en' ? 'Foreign Investment' : 'የውጭ ኢንቨስትመንት'}
-                      </option>
+                      <option value="">{language === 'en' ? 'Select Legal Service Needed' : 'የሚፈልጉትን የሕግ አገልግሎት ይምረጡ'}</option>
+                      <option value="advisory">{language === 'en' ? 'Legal Advisory Services' : 'የሕግ ምክር አገልግሎቶች'}</option>
+                      <option value="commercial">{language === 'en' ? 'Commercial Law' : 'ንግድ ሕግ'}</option>
+                      <option value="litigation">{language === 'en' ? 'Litigation & Defense' : 'ክርክር እና መከላከያ'}</option>
+                      <option value="tax">{language === 'en' ? 'Tax Law & Financial Strategy' : 'የታክስ ሕግ እና የፋይናንስ ስትራቴጂ'}</option>
+                      <option value="foreign">{language === 'en' ? 'Foreign Investment' : 'የውጭ ኢንቨስትመንት'}</option>
                     </select>
                   </div>
-                  
                   <div className="form-group">
                     <textarea
                       name="message"
-                      placeholder={language === 'en' 
-                        ? 'Describe your legal matter or inquiry...' 
-                        : 'የሕግ ጉዳይዎን ወይም ጥያቄዎን ይግለጹ...'}
+                      placeholder={language === 'en' ? 'Describe your legal matter or inquiry...' : 'የሕግ ጉዳይዎን ወይም ጥያቄዎን ይግለጹ...'}
                       required
                       rows="6"
                     ></textarea>
                   </div>
-                  
                   <button type="submit" disabled={isSubmitting} className="submit-btn">
                     {isSubmitting 
                       ? (language === 'en' ? 'Sending...' : 'በመላክ ላይ...')
@@ -908,12 +792,9 @@ Strategically positioned within international legal and professional networks, w
             <div className="footer-brand">
               <h3 className="footer-logo">{currentContent.name}</h3>
               <p className="footer-tagline">
-                {language === 'en' 
-                  ? 'Excellence in Legal Representation' 
-                  : 'በሕግ ውክልና ልዕልና'}
+                {language === 'en' ? 'Excellence in Legal Representation' : 'በሕግ ውክልና ልዕልና'}
               </p>
             </div>
-            
             <div className="footer-links">
               <div className="link-group">
                 <h4>{language === 'en' ? 'Quick Links' : 'ፈጣን አገናኞች'}</h4>
@@ -923,33 +804,20 @@ Strategically positioned within international legal and professional networks, w
                 <button onClick={() => scrollToSection('contact')}>{currentContent.contact}</button>
               </div>
             </div>
-            
             <div className="footer-newsletter">
               <h4><i className="fas fa-newspaper"></i> {currentContent.newsletter}</h4>
               <p>{currentContent.newsletterText}</p>
               <div className="newsletter-form">
-                <input 
-                  type="email" 
-                  placeholder={language === 'en' ? 'Enter your email' : 'ኢሜልዎን ያስገቡ'} 
-                  className="newsletter-input"
-                />
-                <button className="newsletter-btn">
-                  {language === 'en' ? 'Subscribe' : 'ይመዝገቡ'}
-                </button>
+                <input type="email" placeholder={language === 'en' ? 'Enter your email' : 'ኢሜልዎን ያስገቡ'} className="newsletter-input" />
+                <button className="newsletter-btn">{language === 'en' ? 'Subscribe' : 'ይመዝገቡ'}</button>
               </div>
             </div>
           </div>
-          
           <div className="footer-bottom">
             <p>© {new Date().getFullYear()} MERIDIAN LAW FIRM LLP. {language === 'en' ? 'All rights reserved.' : 'ሁሉም መብቶች የተጠበቁ ናቸው።'}</p>
             <div className="footer-social">
               {currentContent.socialLinks.map((social, index) => (
-                <button
-                  key={index}
-                  className="footer-social-btn"
-                  onClick={() => handleSocialClick(social.url)}
-                  aria-label={social.platform}
-                >
+                <button key={index} className="footer-social-btn" onClick={() => handleSocialClick(social.url)} aria-label={social.platform}>
                   {renderSocialIcon(social.icon)}
                 </button>
               ))}
