@@ -143,7 +143,7 @@ Strategically positioned within international legal and professional networks, w
     },
     
     am: {
-      name: 'ሜሪዲያን የሕግ ቢሮ LLP',
+      name: 'ሜሪዲያን የሕግ ቢሮ ኃ/የተ/የሽ/ማህበር',
       title: 'ብቁ የሆነ የሕግ አገልግሎት',
       location: 'አዲስ አበባ፣ ኢትዮጵያ',
       phone: '+251-900-802400 / +251-911-425414',
