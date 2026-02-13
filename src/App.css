@@ -275,7 +275,7 @@ body {
 }
 
 /* ===============================
-   NAVIGATION
+   NAVIGATION - DARK & ELEGANT
 ================================ */
 .nav-main {
   position: fixed;
@@ -283,7 +283,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: linear-gradient(to bottom, rgba(10, 31, 244, 0.95), rgba(9, 24, 204, 0.9));
+  background: linear-gradient(to bottom, rgba(15, 26, 47, 0.97), rgba(10, 15, 26, 0.98));
   backdrop-filter: blur(20px);
   border-bottom: var(--border-gold);
   padding: 1rem 2rem;
@@ -632,12 +632,20 @@ body {
   animation: fadeIn 1s ease-out 0.3s both;
 }
 
-.lady-justice-svg {
+/* LADY JUSTICE PNG STYLES */
+.lady-justice-img {
   width: 100%;
   max-width: 500px;
   height: auto;
-  filter: drop-shadow(0 0 20px rgba(197, 157, 58, 0.3));
-  animation: float 6s ease-in-out infinite, glow 3s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px rgba(197, 157, 58, 0.25));
+  animation: float 7s ease-in-out infinite, glow 4s ease-in-out infinite;
+  opacity: 0.95;
+  transition: all var(--transition-medium);
+}
+
+.lady-justice-img:hover {
+  filter: drop-shadow(0 0 30px rgba(197, 157, 58, 0.5));
+  transform: scale(1.02);
 }
 
 .hero .container {
@@ -1740,7 +1748,7 @@ body {
     align-items: flex-start;
     padding-top: 5rem;
     transition: left 0.3s ease, right 0.3s ease;
-    background: linear-gradient(to bottom, rgba(10, 31, 244, 0.98), rgba(9, 24, 204, 0.95));
+    background: linear-gradient(to bottom, rgba(15, 26, 47, 0.98), rgba(10, 15, 26, 0.99));
     backdrop-filter: blur(20px);
   }
   
