@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('am'); // Default language set to Amharic
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -387,6 +387,46 @@ Strategically positioned within international legal and professional networks, w
     }
   };
 
+  // Lady Justice SVG Component
+  const LadyJusticeSVG = () => (
+    <svg className="lady-justice-svg" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Scales */}
+      <g className="scales" animation="float 6s ease-in-out infinite">
+        <line x1="200" y1="180" x2="200" y2="230" stroke="#C59D3A" strokeWidth="4" strokeLinecap="round"/>
+        <line x1="200" y1="205" x2="120" y2="180" stroke="#C59D3A" strokeWidth="3" strokeLinecap="round"/>
+        <line x1="200" y1="205" x2="280" y2="180" stroke="#C59D3A" strokeWidth="3" strokeLinecap="round"/>
+        <circle cx="120" cy="180" r="25" stroke="#C59D3A" strokeWidth="2" fill="none"/>
+        <circle cx="280" cy="180" r="25" stroke="#C59D3A" strokeWidth="2" fill="none"/>
+      </g>
+      
+      {/* Sword */}
+      <g className="sword">
+        <line x1="300" y1="300" x2="360" y2="200" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round"/>
+        <polygon points="370,190 360,200 350,190" fill="#C59D3A"/>
+      </g>
+      
+      {/* Blindfold */}
+      <g className="blindfold">
+        <rect x="170" y="100" width="60" height="15" rx="7.5" fill="#FFFFFF" opacity="0.9"/>
+        <line x1="170" y1="107.5" x2="230" y2="107.5" stroke="#C59D3A" strokeWidth="2"/>
+      </g>
+      
+      {/* Robe */}
+      <path d="M160 120 L240 120 L220 300 L180 300 Z" fill="url(#gradient)" opacity="0.8"/>
+      
+      {/* Decorative elements */}
+      <circle cx="200" cy="80" r="40" stroke="#C59D3A" strokeWidth="2" fill="none" opacity="0.3"/>
+      <circle cx="200" cy="80" r="30" stroke="#C59D3A" strokeWidth="2" fill="none" opacity="0.3"/>
+      
+      <defs>
+        <linearGradient id="gradient" x1="160" y1="120" x2="240" y2="300" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#0A1FF4"/>
+          <stop offset="1" stopColor="#0918CC"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+
   return (
     <div className="App">
       {/* Book Consultation Button */}
@@ -500,7 +540,6 @@ Strategically positioned within international legal and professional networks, w
             <div className="bg-shapes">
               <div className="shape shape-1"></div>
               <div className="shape shape-2"></div>
-              <div className="shape shape-3"></div>
             </div>
           </div>
           
@@ -540,6 +579,10 @@ Strategically positioned within international legal and professional networks, w
                   {language === 'en' ? 'View Services' : 'አገልግሎቶችን ይመልከቱ'}
                 </button>
               </div>
+            </div>
+            
+            <div className="hero-visual">
+              <LadyJusticeSVG />
             </div>
           </div>
           
