@@ -12,7 +12,7 @@ function App() {
   const content = {
     en: {
       name: 'MERIDIAN LAW FIRM LLP',
-      title: 'AUTHORIZED LEGAL SERVICES',
+      
       location: 'Addis Ababa, Ethiopia',
       phone: '+251-900-802400 / +251-911-425414',
       email: 'meridianlawinfo@gmail.com',
@@ -144,7 +144,7 @@ Strategically positioned within international legal and professional networks, w
     
     am: {
       name: 'ሜሪዲያን የሕግ ቢሮ ኃ/የተ/የሽ/ማህበር',
-      title: 'ብቁ የሆነ የሕግ አገልግሎት',
+    
       location: 'አዲስ አበባ፣ ኢትዮጵያ',
       phone: '+251-900-802400 / +251-911-425414',
       email: 'meridianlawinfo@gmail.com',
