@@ -381,12 +381,6 @@ Strategically positioned within international legal and professional networks, w
 
   return (
     <div className="App">
-      {/* Book Consultation Button */}
-      <button className="book-consultation-btn" onClick={() => scrollToSection('contact')}>
-        <i className="fas fa-calendar-check"></i>
-        {language === 'en' ? 'Book Consultation' : 'ምክር'}
-      </button>
-
       {/* WhatsApp Button */}
       <button className="whatsapp-btn" onClick={handleWhatsAppClick}>
         <i className="fab fa-whatsapp"></i>
@@ -420,19 +414,15 @@ Strategically positioned within international legal and professional networks, w
         >🇪🇹 AM</button>
       </div>
 
-      {/* Mobile Menu Toggle */}
+      {/* Menu Toggle - always visible */}
       <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
         <div className={`hamburger ${isMenuOpen ? 'open' : ''}`}>
           <span></span><span></span><span></span>
         </div>
       </button>
 
-      {/* Navigation - Ultra Dark & Elegant */}
+      {/* Navigation - semi‑transparent overlay */}
       <nav className={`nav-main ${isMenuOpen ? 'open' : ''}`}>
-        <div className="nav-brand">
-          <h1 className="logo">{currentContent.name}</h1>
-          <div className="nav-subtitle">{currentContent.title}</div>
-        </div>
         <ul className="nav-links">
           <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏠 {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
           <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🏛️ {currentContent.about}</button></li>
