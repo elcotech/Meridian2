@@ -192,46 +192,8 @@ body {
 }
 
 /* ===============================
-   CALL TO ACTION BUTTONS
+   WHATSAPP BUTTON
 ================================ */
-.book-consultation-btn {
-  position: fixed;
-  top: 1rem;
-  right: 6rem;
-  z-index: 1002;
-  background: linear-gradient(135deg, #0f1a2f, #0a0f1a);
-  color: var(--gold-accent);
-  border: 2px solid var(--gold-accent);
-  padding: 0.8rem 1.8rem;
-  border-radius: 40px;
-  font-family: 'EB Garamond', serif;
-  font-weight: 700;
-  font-size: 1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  box-shadow: var(--shadow-lg), var(--glow-gold);
-  transition: all var(--transition-fast);
-  animation: fadeIn 1s ease-out 0.5s both;
-}
-
-.book-consultation-btn:hover {
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: var(--shadow-xl), 0 0 30px rgba(197, 157, 58, 0.7);
-  background: var(--gold-accent);
-  color: var(--bg-main);
-  border-color: var(--bg-main);
-}
-
-.book-consultation-btn i {
-  transition: transform var(--transition-fast);
-}
-
-.book-consultation-btn:hover i {
-  transform: rotate(15deg);
-}
-
 .whatsapp-btn {
   position: fixed;
   bottom: 2rem;
@@ -259,60 +221,38 @@ body {
 }
 
 /* ===============================
-   NAVIGATION - ULTRA DARK & ELEGANT
+   NAVIGATION - SEMI‑TRANSPARENT OVERLAY
 ================================ */
 .nav-main {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
   z-index: 1000;
-  background: linear-gradient(to bottom, rgba(10, 15, 26, 0.98), rgba(5, 8, 15, 0.99));
-  backdrop-filter: blur(15px);
-  border-bottom: 0.5px solid rgba(197, 157, 58, 0.3);
-  padding: 0.8rem 2rem;
-  transition: all var(--transition-medium);
-  transform: translateY(0);
+  background: rgba(10, 15, 26, 0.85);
+  backdrop-filter: blur(10px);
+  transition: left var(--transition-medium);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  border-right: 1px solid rgba(197, 157, 58, 0.3);
+  box-shadow: var(--shadow-lg);
 }
 
-.nav-main.hidden {
-  transform: translateY(-100%);
-}
-
-.nav-brand {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.6rem, 3vw, 2.1rem);
-  font-weight: 800;
-  background: var(--gradient-gold);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  text-shadow: 0 0 15px rgba(197, 157, 58, 0.3);
-}
-
-.nav-subtitle {
-  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
-  color: var(--text-dim);
-  font-style: italic;
-  letter-spacing: 1px;
+.nav-main.open {
+  left: 0;
 }
 
 .nav-links {
-  display: flex;
-  gap: 1.2rem;
   list-style: none;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
 }
 
 .nav-links button {
@@ -320,15 +260,17 @@ body {
   border: none;
   color: var(--text-muted);
   font-family: 'EB Garamond', serif;
-  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+  font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 600;
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40px;
   transition: all var(--transition-fast);
   position: relative;
   white-space: nowrap;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-links button::after {
@@ -461,9 +403,9 @@ body {
   transform: translateX(0);
 }
 
-/* Menu Toggle for Mobile */
+/* Menu Toggle - always visible */
 .menu-toggle {
-  display: none;
+  display: flex;
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -1772,15 +1714,10 @@ body {
   .about-content { grid-template-columns: 1fr; gap: 3rem; }
   .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
   .footer-content { grid-template-columns: 1fr; gap: 3rem; }
-  .nav-links { gap: 1rem; }
 }
 
 @media (max-width: 992px) {
-  .nav-main { flex-direction: column; gap: 1.5rem; padding: 1rem; align-items: flex-start; }
-  .nav-links { flex-direction: column; width: 100%; gap: 0.5rem; }
-  .nav-links button { width: 100%; text-align: left; padding: 1rem; }
   .floating-social { display: none; }
-  .book-consultation-btn { right: 5rem; font-size: 0.9rem; padding: 0.6rem 1.2rem; }
   .hero-buttons { flex-direction: column; align-items: center; }
   .btn { width: 100%; max-width: 300px; }
   .expertise-stats { flex-direction: column; gap: 2rem; align-items: center; }
@@ -1789,25 +1726,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .menu-toggle { display: flex; }
-  .nav-main {
-    position: fixed;
-    left: -100%;
-    right: 100%;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 5rem;
-    transition: left 0.3s ease, right 0.3s ease;
-    background: linear-gradient(to bottom, #0a0f1a, #05080f);
-  }
-  .nav-main.open { left: 0; right: 0; }
-  .nav-links { margin: 2rem 0; }
-  .nav-links button { font-size: 1.2rem; }
-  .book-consultation-btn { display: none; }
-  .mobile-consultation-btn { display: block !important; margin: 2rem auto; width: 90%; max-width: 300px; }
-  .language-switcher { position: absolute; top: 1rem; right: 5rem; }
   .section { padding: 4rem 0; }
   .section-header h2 { font-size: 2rem; }
   .hero-title { font-size: 2.5rem; }
@@ -1817,6 +1735,9 @@ body {
   .expertise-list { max-width: 100%; }
   .footer-bottom { flex-direction: column; gap: 1.5rem; text-align: center; }
   .contact-form-wrapper { padding: 2rem; }
+  .nav-links button {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1875,7 +1796,7 @@ button:focus, input:focus, select:focus, textarea:focus {
 
 @media print {
   .floating-social, .language-switcher, .menu-toggle, .scroll-indicator,
-  .social-buttons, .newsletter-form, .btn:hover, .book-consultation-btn, .whatsapp-btn {
+  .social-buttons, .newsletter-form, .btn:hover, .whatsapp-btn {
     display: none !important;
   }
   body { color: #000; background: #fff; }
