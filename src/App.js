@@ -182,10 +182,10 @@ Strategically positioned within international legal and professional networks, w
           name: 'ሀብታሙ ብስራት ከበደ',
           title: 'ምክትል አስተዳዳሪ አጋር',
           description: 'ሙያዊ ማጠቃለያ: በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው የሕግ ባለሙያ።',
-          fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
+          fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ �ሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
         },
         {
-          name: 'ታለማ ግዛቸው ብዙነህ',
+          name: 'ጣለማ ግዛቸው ብዙነህ',
           title: 'አጋር',
           description: 'ሙያዊ ማጠቃለያ: በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው ከፍተኛ የሕግ ባለሙያ።',
           fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
@@ -386,7 +386,10 @@ Strategically positioned within international legal and professional networks, w
         <i className="fab fa-whatsapp"></i>
       </button>
 
-      {/* Floating Social Media */}
+      {/* Invisible trigger for social icons */}
+      <div className="social-trigger"></div>
+
+      {/* Floating Social Media - hidden by default */}
       <div className="floating-social">
         {currentContent.socialLinks.map((social, index) => (
           <button
@@ -424,8 +427,8 @@ Strategically positioned within international legal and professional networks, w
       {/* Navigation - semi‑transparent overlay */}
       <nav className={`nav-main ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏛️ {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
-          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🎫 {currentContent.about}</button></li>
+          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏠 {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
+          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🏛️ {currentContent.about}</button></li>
           <li><button onClick={() => scrollToSection('services')} className={activeSection === 'services' ? 'active' : ''}>⚖️ {currentContent.services}</button></li>
           <li><button onClick={() => scrollToSection('partners')} className={activeSection === 'partners' ? 'active' : ''}>👥 {currentContent.partners}</button></li>
           <li><button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>🎯 {currentContent.expertise}</button></li>
@@ -484,7 +487,6 @@ Strategically positioned within international legal and professional networks, w
           </div>
         </section>
 
-        {/* All other sections remain exactly as in your original code - they are already perfect */}
         {/* About Section */}
         <section className="section about-section" id="about">
           <div className="container">
