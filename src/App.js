@@ -424,8 +424,8 @@ Strategically positioned within international legal and professional networks, w
       {/* Navigation - semi‑transparent overlay */}
       <nav className={`nav-main ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏠 {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
-          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🏛️ {currentContent.about}</button></li>
+          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏛️ {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
+          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🎫 {currentContent.about}</button></li>
           <li><button onClick={() => scrollToSection('services')} className={activeSection === 'services' ? 'active' : ''}>⚖️ {currentContent.services}</button></li>
           <li><button onClick={() => scrollToSection('partners')} className={activeSection === 'partners' ? 'active' : ''}>👥 {currentContent.partners}</button></li>
           <li><button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>🎯 {currentContent.expertise}</button></li>
