@@ -269,7 +269,7 @@ body {
   z-index: 1000;
   background: linear-gradient(to bottom, rgba(10, 15, 26, 0.98), rgba(5, 8, 15, 0.99));
   backdrop-filter: blur(15px);
-  border-bottom: 1px solid rgba(197, 157, 58, 0.3);
+  border-bottom: 0.5px solid rgba(197, 157, 58, 0.3);
   padding: 0.8rem 2rem;
   transition: all var(--transition-medium);
   transform: translateY(0);
