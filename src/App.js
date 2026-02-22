@@ -447,9 +447,7 @@ Strategically positioned within international legal and professional networks, w
           </div>
           <div className="container">
             <div className="hero-content">
-              <div className="hero-badge">
-                <span>⚖️ {language === 'en' ? 'Amazing Service' : 'አስገራሚ አገልግሎት'}</span>
-              </div>
+              {/* Hero badge removed as requested */}
               <h1 className="hero-title">
                 <span className="title-line title-line-1">{currentContent.name}</span>
                 <span className="title-line title-line-2">{currentContent.title}</span>
@@ -747,11 +745,27 @@ Strategically positioned within international legal and professional networks, w
                   <div className="form-group">
                     <select name="service" required>
                       <option value="">{language === 'en' ? 'Select Legal Service Needed' : 'የሚፈልጉትን የሕግ አገልግሎት ይምረጡ'}</option>
-                      <option value="advisory">{language === 'en' ? 'Legal Advisory Services' : 'የሕግ ምክር አገልግሎቶች'}</option>
-                      <option value="commercial">{language === 'en' ? 'Commercial Law' : 'ንግድ ሕግ'}</option>
-                      <option value="litigation">{language === 'en' ? 'Litigation & Defense' : 'ክርክር እና መከላከያ'}</option>
-                      <option value="tax">{language === 'en' ? 'Tax Law & Financial Strategy' : 'የታክስ ሕግ እና የፋይናንስ ስትራቴጂ'}</option>
-                      <option value="foreign">{language === 'en' ? 'Foreign Investment' : 'የውጭ ኢንቨስትመንት'}</option>
+                      {/* English options updated with new list */}
+                      {language === 'en' ? (
+                        <>
+                          <option value="corporate">📑 Corporate & Commercial Law (Company formation, governance, compliance, and commercial transactions.)</option>
+                          <option value="contract">📜 Contract Drafting & Negotiation (Preparation, review, and negotiation of contracts and legal instruments.)</option>
+                          <option value="employment">👷 Employment Law (Advisory and representation in employment relations and labor disputes.)</option>
+                          <option value="administrative">🏢 Administrative & Regulatory Law (Advisory and representation involving government authorities and regulatory bodies.)</option>
+                          <option value="tax_investment">💰 Tax & Investment Advisory (Legal guidance on tax matters and foreign/direct investment compliance.)</option>
+                          <option value="international">🌍 International & Cross-Border Matters (Legal support for foreign investors and multinational entities operating in Ethiopia.)</option>
+                          <option value="environmental">🌱 Environmental & Compliance Law (Advisory on environmental regulations and compliance obligations.)</option>
+                        </>
+                      ) : (
+                        /* Amharic options unchanged (previous list) */
+                        <>
+                          <option value="advisory">የሕግ ምክር አገልግሎቶች</option>
+                          <option value="commercial">ንግድ ሕግ</option>
+                          <option value="litigation">ክርክር እና መከላከያ</option>
+                          <option value="tax">የታክስ ሕግ እና የፋይናንስ ስትራቴጂ</option>
+                          <option value="foreign">የውጭ ኢንቨስትመንት</option>
+                        </>
+                      )}
                     </select>
                   </div>
                   <div className="form-group">
