@@ -185,7 +185,7 @@ Strategically positioned within international legal and professional networks, w
           fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ �ሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
         },
         {
-          name: 'ጣለማ ግዛቸው ብዙነህ',
+          name: 'ታለማ ግዛቸው ብዙነህ',
           title: 'አጋር',
           description: 'ሙያዊ ማጠቃለያ: በመንግሥት ተቋማት እና በግል የሕግ ተግባር ሰፊ ልምድ ያለው ከፍተኛ የሕግ ባለሙያ።',
           fullText: `በሕገ መንግሥት ሕግ፣ የወንጀል ሕግ፣ ፍትሐ ብሔር ሕግ፣ ንግድ ሕግ፣ ውል እና ከውል ውጪ ግዴታዎች፣ የሠራተኛ ሕግ፣ አስተዳደራዊ ሕግ እና የታክስ ሕግ ሰፊ እውቀት ያለው።`
@@ -427,8 +427,8 @@ Strategically positioned within international legal and professional networks, w
       {/* Navigation - semi‑transparent overlay */}
       <nav className={`nav-main ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏠 {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
-          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🏛️ {currentContent.about}</button></li>
+          <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>🏛️ {language === 'en' ? 'Home' : 'መግቢያ'}</button></li>
+          <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>🗃️ {currentContent.about}</button></li>
           <li><button onClick={() => scrollToSection('services')} className={activeSection === 'services' ? 'active' : ''}>⚖️ {currentContent.services}</button></li>
           <li><button onClick={() => scrollToSection('partners')} className={activeSection === 'partners' ? 'active' : ''}>👥 {currentContent.partners}</button></li>
           <li><button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>🎯 {currentContent.expertise}</button></li>
