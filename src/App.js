@@ -14,9 +14,9 @@ function App() {
       name: 'MERIDIAN LAW FIRM LLP',
       
       location: 'Addis Ababa, Ethiopia',
-      phone: '+251-900-802400',
-      email: 'meridianlawinfo@gmail.com',
-      website: 'https://meridianlawfirmllp.com.et',
+      phone: '+251-900802400',
+      email: 'info@meridianlegal.org',
+      website: 'https://meridianlegal.org',
       whatsapp: 'https://wa.me/251900802400',
       
       welcome: 'Strategically positioned within international legal and professional networks',
