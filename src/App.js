@@ -146,9 +146,9 @@ Strategically positioned within international legal and professional networks, w
       name: 'ሜሪዲያን የሕግ ቢሮ ኃ/የተ/የሽ/ማህበር',
     
       location: 'አዲስ አበባ፣ ኢትዮጵያ',
-      phone: '+251-900-802400 / +251-911-425414',
-      email: 'meridianlawinfo@gmail.com',
-      website: 'https://meridianlawfirmllp.com.et',
+      phone: '+251-900-802400',
+      email: 'info@meridianlegal.org',
+      website: 'https://meridianlegal.org',
       whatsapp: 'https://wa.me/251900802400',
       
       welcome: 'በዓለም አቀፍ የሕግ እና ሙያዊ አውታረ መረቦች ውስጥ በስትራቴጂክ ሁኔታ የተቀመጠ',
